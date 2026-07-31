@@ -1,0 +1,20 @@
+当前场景连通组规则：
+- corridor(3)、reception(6)、office(2/5)、exam_room(1/4/11)、bedroom(7/8) 和 storage(12) 属于同一个连通组。
+- reception(6) 与 corridor(3) 是直接相邻的开放区域，两者之间不需要经过门。
+- 其余可用房间都只与 corridor(3) 直接相连，不同房间之间不能直接进入。
+- exam_room(0)、bathroom(9) 和 bathroom(10) 没有可选 waypoint，不参与行人或机器人路线规划。
+
+当前场景区域连接图：
+- reception(6) <-> corridor(3)
+- corridor(3) <-> office(2)
+- corridor(3) <-> office(5)
+- corridor(3) <-> exam_room(1)
+- corridor(3) <-> exam_room(4)
+- corridor(3) <-> exam_room(11)
+- corridor(3) <-> bedroom(7)
+- corridor(3) <-> bedroom(8)
+- corridor(3) <-> storage(12)
+
+路线在 reception(6) 和 corridor(3) 之间移动时，选择两侧相邻且连线可行的 waypoint。
+路线在 corridor(3) 和任一房间之间移动时，必须严格使用 waypoints_by_region.json 中对应 region_transition 指定的两个 waypoint 穿越门口。
+同名区域必须使用 region_id 区分，不能仅根据区域名称判断连接关系。

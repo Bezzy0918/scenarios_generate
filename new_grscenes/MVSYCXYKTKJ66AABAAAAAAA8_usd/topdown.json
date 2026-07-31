@@ -1,0 +1,40 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "shopping_area",
+      "score": null,
+      "points": [
+        [
+          262.856,
+          71.78800000000001
+        ],
+        [
+          561.144,
+          71.78800000000001
+        ],
+        [
+          561.144,
+          502.51599999999996
+        ],
+        [
+          262.856,
+          502.51599999999996
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 524,
+  "imageWidth": 824,
+  "description": "This is a floor plan of a small convenience store or market. It features a main shopping area with shelves and display units containing various products like books, boxes, and fresh produce. There is a checkout counter with a chair and a laptop, and a refrigerator section. The layout is simple and designed for retail."
+}

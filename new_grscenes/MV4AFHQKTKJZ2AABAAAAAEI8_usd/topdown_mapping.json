@@ -1,0 +1,83 @@
+{
+  "image": "topdown.png",
+  "image_width": 1424,
+  "image_height": 1024,
+  "scene_translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scene_scale": 0.01,
+  "bounds_min": [
+    -4.798623011122472,
+    -9.173446220714998,
+    0.0
+  ],
+  "bounds_max": [
+    9.441376882781258,
+    1.0665532147098091,
+    2.9999999776482578
+  ],
+  "camera_geometry": {
+    "method": "camera_ray_ground_intersection",
+    "camera_prim_path": "/Replicator/IndoorTopDownCamera_Xform/IndoorTopDownCamera",
+    "ground_plane_z": 0.0,
+    "camera_z": 26.133629010729514,
+    "camera_model": "pinhole",
+    "render_product_resolution": [
+      1424,
+      1024
+    ],
+    "camera_projection": [
+      2.2906228624246854,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.185397418059328,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      5.000002574507131e-07,
+      -1.0,
+      0.0,
+      0.0,
+      0.05000002574507131,
+      0.0
+    ],
+    "camera_world_transform": [
+      3.7359961834445145e-24,
+      1.0,
+      2.2204460492501358e-16,
+      0.0,
+      -0.9999999999999202,
+      -8.496508658514109e-23,
+      3.994741633039922e-07,
+      0.0,
+      3.994741633039922e-07,
+      -2.2204460492499736e-16,
+      0.9999999999999202,
+      0.0,
+      2.3213770389556885,
+      -4.053446292877197,
+      26.133628845214844,
+      1.0
+    ],
+    "camera_aperture": [
+      20.954999923706055,
+      15.290800094604492
+    ],
+    "camera_aperture_offset": [
+      0.0,
+      0.0
+    ],
+    "camera_focal_length": 24.0,
+    "camera_near_far": [
+      0.05000000074505806,
+      100000.0
+    ]
+  },
+  "oblique_views": [],
+  "occupancy_map": null
+}

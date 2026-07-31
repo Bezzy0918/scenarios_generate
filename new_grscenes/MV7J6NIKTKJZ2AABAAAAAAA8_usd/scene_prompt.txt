@@ -1,0 +1,10 @@
+当前场景连通组规则：
+- office(0)、waiting_area(1) 和 kitchen(2) 属于同一个连通组。
+- 三个 region 位于同一开放空间，可以通过相邻边界直接进入。
+
+当前场景区域连接图：
+- office(0) <-> waiting_area(1)
+- office(0) <-> kitchen(2)
+- waiting_area(1) <-> kitchen(2)
+
+当前场景没有固定 region_transition，跨区域时必须选择两侧相邻且连线可行的 waypoint，不能穿过办公桌、座椅或其他障碍物。

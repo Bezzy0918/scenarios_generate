@@ -1,0 +1,678 @@
+{
+  "region_areas": [
+    {
+      "region_id": 0,
+      "label": "office",
+      "polygon": [
+        [
+          353.51300000000003,
+          300.768
+        ],
+        [
+          931.5120000000001,
+          300.768
+        ],
+        [
+          931.5120000000001,
+          960.96
+        ],
+        [
+          353.51300000000003,
+          960.96
+        ]
+      ]
+    },
+    {
+      "region_id": 1,
+      "label": "waiting_area",
+      "polygon": [
+        [
+          91.26299999999999,
+          660.192
+        ],
+        [
+          353.51300000000003,
+          660.192
+        ],
+        [
+          353.51300000000003,
+          960.96
+        ],
+        [
+          91.26299999999999,
+          960.96
+        ]
+      ]
+    },
+    {
+      "region_id": 2,
+      "label": "kitchen",
+      "polygon": [
+        [
+          91.26299999999999,
+          300.768
+        ],
+        [
+          353.51300000000003,
+          300.768
+        ],
+        [
+          353.51300000000003,
+          660.192
+        ],
+        [
+          91.26299999999999,
+          660.192
+        ]
+      ]
+    }
+  ],
+  "waypoints_by_region": [
+    {
+      "region_id": 0,
+      "label": "office",
+      "waypoints": [
+        {
+          "id": "wp_r00_office_001",
+          "pixel": [
+            385,
+            350
+          ]
+        },
+        {
+          "id": "wp_r00_office_002",
+          "pixel": [
+            373,
+            379
+          ]
+        },
+        {
+          "id": "wp_r00_office_003",
+          "pixel": [
+            383,
+            559
+          ]
+        },
+        {
+          "id": "wp_r00_office_004",
+          "pixel": [
+            399,
+            599
+          ]
+        },
+        {
+          "id": "wp_r00_office_005",
+          "pixel": [
+            388,
+            632
+          ]
+        },
+        {
+          "id": "wp_r00_office_006",
+          "pixel": [
+            388,
+            666
+          ]
+        },
+        {
+          "id": "wp_r00_office_007",
+          "pixel": [
+            385,
+            870
+          ]
+        },
+        {
+          "id": "wp_r00_office_008",
+          "pixel": [
+            407,
+            893
+          ]
+        },
+        {
+          "id": "wp_r00_office_009",
+          "pixel": [
+            451,
+            906
+          ]
+        },
+        {
+          "id": "wp_r00_office_010",
+          "pixel": [
+            511,
+            915
+          ]
+        },
+        {
+          "id": "wp_r00_office_011",
+          "pixel": [
+            574,
+            933
+          ]
+        },
+        {
+          "id": "wp_r00_office_012",
+          "pixel": [
+            657,
+            927
+          ]
+        },
+        {
+          "id": "wp_r00_office_013",
+          "pixel": [
+            665,
+            881
+          ]
+        },
+        {
+          "id": "wp_r00_office_014",
+          "pixel": [
+            683,
+            875
+          ]
+        },
+        {
+          "id": "wp_r00_office_015",
+          "pixel": [
+            628,
+            904
+          ]
+        },
+        {
+          "id": "wp_r00_office_016",
+          "pixel": [
+            425,
+            941
+          ]
+        },
+        {
+          "id": "wp_r00_office_017",
+          "pixel": [
+            503,
+            888
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": 1,
+      "label": "waiting_area",
+      "waypoints": [
+        {
+          "id": "wp_r01_waiting_area_001",
+          "pixel": [
+            218,
+            696
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_002",
+          "pixel": [
+            271,
+            688
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_003",
+          "pixel": [
+            302,
+            687
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_004",
+          "pixel": [
+            310,
+            724
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_005",
+          "pixel": [
+            237,
+            721
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_006",
+          "pixel": [
+            226,
+            745
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_007",
+          "pixel": [
+            229,
+            781
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_008",
+          "pixel": [
+            289,
+            765
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_009",
+          "pixel": [
+            281,
+            735
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_010",
+          "pixel": [
+            258,
+            805
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_011",
+          "pixel": [
+            248,
+            870
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_012",
+          "pixel": [
+            224,
+            878
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_013",
+          "pixel": [
+            219,
+            836
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_014",
+          "pixel": [
+            185,
+            904
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_015",
+          "pixel": [
+            171,
+            901
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_016",
+          "pixel": [
+            158,
+            938
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_017",
+          "pixel": [
+            198,
+            938
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_018",
+          "pixel": [
+            260,
+            930
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_019",
+          "pixel": [
+            286,
+            894
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_020",
+          "pixel": [
+            308,
+            870
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_021",
+          "pixel": [
+            338,
+            857
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_022",
+          "pixel": [
+            331,
+            800
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_023",
+          "pixel": [
+            330,
+            786
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_024",
+          "pixel": [
+            321,
+            753
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_025",
+          "pixel": [
+            273,
+            841
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_026",
+          "pixel": [
+            304,
+            842
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_027",
+          "pixel": [
+            304,
+            808
+          ]
+        },
+        {
+          "id": "wp_r01_waiting_area_028",
+          "pixel": [
+            333,
+            690
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": 2,
+      "label": "kitchen",
+      "waypoints": [
+        {
+          "id": "wp_r02_kitchen_001",
+          "pixel": [
+            137,
+            350
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_002",
+          "pixel": [
+            185,
+            350
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_003",
+          "pixel": [
+            227,
+            350
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_004",
+          "pixel": [
+            273,
+            350
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_005",
+          "pixel": [
+            312,
+            348
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_006",
+          "pixel": [
+            330,
+            354
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_007",
+          "pixel": [
+            318,
+            382
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_008",
+          "pixel": [
+            289,
+            385
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_009",
+          "pixel": [
+            226,
+            385
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_010",
+          "pixel": [
+            176,
+            392
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_011",
+          "pixel": [
+            151,
+            398
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_012",
+          "pixel": [
+            143,
+            465
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_013",
+          "pixel": [
+            201,
+            461
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_014",
+          "pixel": [
+            279,
+            435
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_015",
+          "pixel": [
+            284,
+            435
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_016",
+          "pixel": [
+            289,
+            525
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_017",
+          "pixel": [
+            283,
+            564
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_018",
+          "pixel": [
+            239,
+            568
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_019",
+          "pixel": [
+            150,
+            528
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_020",
+          "pixel": [
+            140,
+            505
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_021",
+          "pixel": [
+            148,
+            586
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_022",
+          "pixel": [
+            159,
+            602
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_023",
+          "pixel": [
+            274,
+            612
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_024",
+          "pixel": [
+            307,
+            612
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_025",
+          "pixel": [
+            346,
+            604
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_026",
+          "pixel": [
+            331,
+            531
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_027",
+          "pixel": [
+            338,
+            492
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_028",
+          "pixel": [
+            336,
+            463
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_029",
+          "pixel": [
+            245,
+            461
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_030",
+          "pixel": [
+            226,
+            426
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_031",
+          "pixel": [
+            200,
+            429
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_032",
+          "pixel": [
+            200,
+            541
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_033",
+          "pixel": [
+            236,
+            520
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_034",
+          "pixel": [
+            205,
+            576
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_035",
+          "pixel": [
+            205,
+            615
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_036",
+          "pixel": [
+            219,
+            658
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_037",
+          "pixel": [
+            263,
+            641
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_038",
+          "pixel": [
+            172,
+            630
+          ]
+        },
+        {
+          "id": "wp_r02_kitchen_039",
+          "pixel": [
+            143,
+            630
+          ]
+        }
+      ]
+    }
+  ]
+}

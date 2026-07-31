@@ -1,0 +1,105 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "shopping_area",
+      "score": null,
+      "points": [
+        [
+          96.22800000000001,
+          387.82800000000003
+        ],
+        [
+          96.22800000000001,
+          142.88400000000001
+        ],
+        [
+          531.63,
+          142.88400000000001
+        ],
+        [
+          531.63,
+          410.42699999999996
+        ],
+        [
+          450.252,
+          410.42699999999996
+        ],
+        [
+          450.53982300884957,
+          412.5825958702063
+        ],
+        [
+          191.54277286135687,
+          413.1725663716814
+        ],
+        [
+          190.08,
+          410.42699999999996
+        ],
+        [
+          186.82300884955754,
+          546.5058997050147
+        ],
+        [
+          188.59292035398232,
+          542.9660766961651
+        ],
+        [
+          95.37758112094394,
+          541.7861356932153
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "checkout_area",
+      "score": null,
+      "points": [
+        [
+          530.1858407079645,
+          442.96607669616503
+        ],
+        [
+          534.9056047197639,
+          559.7802359882006
+        ],
+        [
+          224.58112094395278,
+          559.7802359882006
+        ],
+        [
+          228.12094395280235,
+          496.6533923303834
+        ],
+        [
+          229.89085545722708,
+          450.6356932153391
+        ],
+        [
+          517.2064896755161,
+          441.19616519174025
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 729,
+  "imageWidth": 594,
+  "description": "A small retail store or convenience store with shelves displaying products, a counter area with point-of-sale equipment, and a clear aisle for customers."
+}

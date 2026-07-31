@@ -1,0 +1,9 @@
+当前场景连通组规则：
+- office(0) 和 waiting_area(1) 属于同一个连通组。
+- 两个 region 之间只能通过已标注的门口进入，不能从其他位置穿越区域边界。
+
+当前场景区域连接图：
+- office(0) <-> waiting_area(1)
+
+路线在 office(0) 和 waiting_area(1) 之间移动时，必须严格使用 waypoints_by_region.json 中对应 region_transition 指定的两个 waypoint 连续穿越门口，并根据移动方向正确排列。
+区域内部路线必须按照实际可行走空间依次选择 waypoint，不能穿过办公桌、沙发、座椅、墙体或其他障碍物。

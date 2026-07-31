@@ -1,0 +1,56 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dining_room",
+      "score": null,
+      "points": [
+        [
+          282.53030303030295,
+          262.6818181818182
+        ],
+        [
+          279.50000000000006,
+          302.07575757575756
+        ],
+        [
+          584.216,
+          301.84700000000004
+        ],
+        [
+          587.052,
+          591.71
+        ],
+        [
+          121.948,
+          593.2080000000001
+        ],
+        [
+          119.11200000000001,
+          264.397
+        ],
+        [
+          117.68181818181824,
+          265.7121212121212
+        ],
+        [
+          138.2878787878788,
+          266.3181818181818
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 749,
+  "imageWidth": 709,
+  "description": "The scene features two distinct functional areas within a single large room. A kitchen area is located in the upper left corner and extends into the upper right section, characterized by countertops, cabinetry, and kitchenware. The rest of the room serves as a dining area with two large tables accompanied by chairs. The room is decorated with paintings and other decorative items, and has multiple windows and a door."
+}

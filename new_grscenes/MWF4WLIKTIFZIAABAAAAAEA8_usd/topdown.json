@@ -1,0 +1,40 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          75.55499999999999,
+          780.288
+        ],
+        [
+          938.745,
+          780.288
+        ],
+        [
+          938.745,
+          1263.616
+        ],
+        [
+          75.55499999999999,
+          1263.616
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 2048,
+  "imageWidth": 1035,
+  "description": "A top-down view of an office space featuring multiple workstations, a large meeting or collaborative table, and a dedicated storage or shelving area along the right wall. The layout is open and structured, typical of a modern workplace."
+}

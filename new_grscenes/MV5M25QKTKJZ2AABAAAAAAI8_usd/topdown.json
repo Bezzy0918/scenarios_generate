@@ -1,0 +1,127 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "lounge_area",
+      "score": null,
+      "points": [
+        [
+          21.200000000000003,
+          557.28
+        ],
+        [
+          178.07999999999998,
+          557.28
+        ],
+        [
+          178.07999999999998,
+          987.624
+        ],
+        [
+          21.200000000000003,
+          987.624
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bar",
+      "score": null,
+      "points": [
+        [
+          178.07999999999998,
+          557.28
+        ],
+        [
+          534.24,
+          557.28
+        ],
+        [
+          536.2641509433962,
+          747.8993710691822
+        ],
+        [
+          175.25786163522014,
+          751.6729559748426
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "dining_area",
+      "score": null,
+      "points": [
+        [
+          534.24,
+          557.28
+        ],
+        [
+          826.8,
+          557.28
+        ],
+        [
+          826.8,
+          987.624
+        ],
+        [
+          534.24,
+          987.624
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "corridor",
+      "score": null,
+      "points": [
+        [
+          185.32075471698124,
+          754.1886792452831
+        ],
+        [
+          531.2327044025157,
+          757.9622641509435
+        ],
+        [
+          534.24,
+          987.624
+        ],
+        [
+          178.07999999999998,
+          987.624
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1548,
+  "imageWidth": 848,
+  "description": "A top-down view of a modern cafe or bar interior. The space is organized into three main functional zones: a lounge area with sofas on the left, a central bar counter with stools, and a dining area with tables and chairs on the right. A central corridor provides circulation between these areas."
+}

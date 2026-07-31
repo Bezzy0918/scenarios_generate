@@ -1,0 +1,93 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "kitchen",
+      "score": null,
+      "points": [
+        [
+          405.162,
+          407.52
+        ],
+        [
+          409.554,
+          266.586
+        ],
+        [
+          528.138,
+          266.586
+        ],
+        [
+          528.138,
+          407.52
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "dining_area",
+      "score": null,
+      "points": [
+        [
+          329.4,
+          426.198
+        ],
+        [
+          373.32000000000005,
+          426.198
+        ],
+        [
+          373.32000000000005,
+          438.933
+        ],
+        [
+          528.138,
+          438.933
+        ],
+        [
+          528.138,
+          582.4140000000001
+        ],
+        [
+          20.862,
+          582.4140000000001
+        ],
+        [
+          20.862,
+          266.586
+        ],
+        [
+          409.554,
+          266.586
+        ],
+        [
+          405.162,
+          407.52
+        ],
+        [
+          329.4,
+          407.52
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 849,
+  "imageWidth": 549,
+  "description": "The image displays a floor plan of a commercial space, likely a cafe or a small restaurant. The space is divided into several areas including a dining area with multiple tables and chairs, a counter/reception area, and a kitchen area with cabinets and appliances."
+}

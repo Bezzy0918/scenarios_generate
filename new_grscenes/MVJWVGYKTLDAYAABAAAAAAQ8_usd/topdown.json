@@ -1,0 +1,96 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          48.107,
+          731.3369999999999
+        ],
+        [
+          56.015,
+          533.889
+        ],
+        [
+          100.827,
+          514.404
+        ],
+        [
+          141.40476190476193,
+          517.489417989418
+        ],
+        [
+          165.7433862433861,
+          522.7804232804233
+        ],
+        [
+          185.84920634920638,
+          524.8968253968254
+        ],
+        [
+          184.79100529100515,
+          523.8386243386243
+        ],
+        [
+          197.041,
+          520.899
+        ],
+        [
+          265.577,
+          513.105
+        ],
+        [
+          311.707,
+          509.208
+        ],
+        [
+          376.948,
+          509.208
+        ],
+        [
+          421.101,
+          517.0020000000001
+        ],
+        [
+          442.189,
+          509.208
+        ],
+        [
+          560.15,
+          509.208
+        ],
+        [
+          584.533,
+          619.6229999999999
+        ],
+        [
+          565.422,
+          789.792
+        ],
+        [
+          458.664,
+          789.792
+        ],
+        [
+          78.42099999999999,
+          789.792
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1299,
+  "imageWidth": 659,
+  "description": "The image shows a top-down view of an interior space that appears to be a waiting or lounge area. It is characterized by several seating arrangements grouped together, mostly white sofas facing each other across small coffee tables. There are also plants acting as natural dividers between some seating sections. At one end, there seems to be a reception or service desk. The overall color scheme is light and modern, mostly white with light wood accents and greenery."
+}

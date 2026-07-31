@@ -1,0 +1,93 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "seating_area",
+      "score": null,
+      "points": [
+        [
+          138.46800000000002,
+          332.23400000000004
+        ],
+        [
+          929.8030303030303,
+          343.93939393939394
+        ],
+        [
+          927.7828282828282,
+          719.6969696969696
+        ],
+        [
+          742.9343434343434,
+          721.7171717171714
+        ],
+        [
+          747.9848484848485,
+          720.7070707070704
+        ],
+        [
+          463.1363636363636,
+          716.6666666666666
+        ],
+        [
+          451.0151515151515,
+          936.8686868686867
+        ],
+        [
+          123.74242424242425,
+          944.9494949494948
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "service_counter",
+      "score": null,
+      "points": [
+        [
+          467.854,
+          729.4159999999999
+        ],
+        [
+          931.5120000000001,
+          734.4119999999999
+        ],
+        [
+          933.61,
+          936.75
+        ],
+        [
+          537.088,
+          939.248
+        ],
+        [
+          476.2676767676767,
+          937.8787878787879
+        ],
+        [
+          474.148,
+          881.794
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1249,
+  "imageWidth": 1049,
+  "description": "A top-down view of a modern cafe or small restaurant interior. The layout includes a seating area with four yellow oval tables along the top wall, each accompanied by two white chairs. Below these are two white irregular-shaped tables, each with a couple of small white stools. A prominent L-shaped counter, likely for service and preparation, dominates the bottom right, equipped with sinks, a coffee maker, cups, and other cafe essentials. Several stools are tucked under the counter. A bookshelf lines the left wall. A large window structure is visible on the right wall."
+}

@@ -1,0 +1,10 @@
+当前场景连通组规则：
+- corridor(3) 是当前场景唯一参与规划的 region。
+- kitchen(0)、treatment_area(1) 和 waiting_area(2) 没有可选 waypoint，不参与行人或机器人路线规划。
+- 所有行人和机器人的起点、终点及完整路线都必须位于 corridor(3) 内部。
+- 当前场景不存在跨 region 路线，不需要 region_transitions，不要虚构其他区域的 waypoint、区域连接关系或跨区域穿越。
+
+当前场景区域连接图：
+- 无跨区域连接。
+
+路线必须完全使用 corridor(3) 中的 waypoint，并按照公共通行区域内的实际可行走空间依次选择。需要绕过沙发、桌椅、柜台或其他家具时，应选择足够的中间 waypoint，不能用直线穿过家具、墙体或其他障碍物。

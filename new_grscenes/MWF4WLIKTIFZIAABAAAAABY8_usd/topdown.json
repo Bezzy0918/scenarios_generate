@@ -1,0 +1,428 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "exam_room",
+      "score": null,
+      "points": [
+        [
+          819.2,
+          23.62
+        ],
+        [
+          1021.952,
+          23.62
+        ],
+        [
+          1021.952,
+          175.969
+        ],
+        [
+          819.2,
+          175.969
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "exam_room",
+      "score": null,
+      "points": [
+        [
+          817.152,
+          174.78799999999998
+        ],
+        [
+          1019.904,
+          174.78799999999998
+        ],
+        [
+          1019.904,
+          338.94699999999995
+        ],
+        [
+          817.152,
+          338.94699999999995
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          819.2,
+          342.48999999999995
+        ],
+        [
+          1017.856,
+          342.48999999999995
+        ],
+        [
+          1017.856,
+          505.468
+        ],
+        [
+          819.2,
+          505.468
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "corridor",
+      "score": null,
+      "points": [
+        [
+          1021.952,
+          116.91900000000001
+        ],
+        [
+          1099.776,
+          116.91900000000001
+        ],
+        [
+          1099.776,
+          304.69800000000004
+        ],
+        [
+          1099.776,
+          753.4780000000001
+        ],
+        [
+          1095.68,
+          1133.76
+        ],
+        [
+          1024.0,
+          1133.76
+        ],
+        [
+          1028.096,
+          752.297
+        ],
+        [
+          1030.144,
+          468.857
+        ],
+        [
+          1026.048,
+          177.15
+        ],
+        [
+          1021.952,
+          177.15
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "exam_room",
+      "score": null,
+      "points": [
+        [
+          1101.824,
+          136.996
+        ],
+        [
+          1347.584,
+          136.996
+        ],
+        [
+          1347.584,
+          299.974
+        ],
+        [
+          1101.824,
+          299.974
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          1099.776,
+          322.413
+        ],
+        [
+          1349.632,
+          322.413
+        ],
+        [
+          1349.632,
+          471.21900000000005
+        ],
+        [
+          1099.776,
+          471.21900000000005
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "reception",
+      "score": null,
+      "points": [
+        [
+          884.736,
+          509.01099999999997
+        ],
+        [
+          1343.488,
+          509.01099999999997
+        ],
+        [
+          1343.488,
+          783.003
+        ],
+        [
+          1097.728,
+          783.003
+        ],
+        [
+          1097.728,
+          754.659
+        ],
+        [
+          1032.192,
+          754.659
+        ],
+        [
+          1032.192,
+          718.048
+        ],
+        [
+          884.736,
+          718.048
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bedroom",
+      "score": null,
+      "points": [
+        [
+          702.464,
+          758.202
+        ],
+        [
+          1001.472,
+          758.202
+        ],
+        [
+          1001.472,
+          987.3159999999999
+        ],
+        [
+          702.464,
+          987.3159999999999
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bedroom",
+      "score": null,
+      "points": [
+        [
+          749.568,
+          1000.307
+        ],
+        [
+          940.032,
+          1000.307
+        ],
+        [
+          940.032,
+          1146.751
+        ],
+        [
+          749.568,
+          1146.751
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bathroom",
+      "score": null,
+      "points": [
+        [
+          940.032,
+          1039.28
+        ],
+        [
+          1017.856,
+          1039.28
+        ],
+        [
+          1017.856,
+          1159.742
+        ],
+        [
+          940.032,
+          1159.742
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bathroom",
+      "score": null,
+      "points": [
+        [
+          1101.824,
+          1039.28
+        ],
+        [
+          1187.84,
+          1039.28
+        ],
+        [
+          1187.84,
+          1162.104
+        ],
+        [
+          1101.824,
+          1162.104
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "exam_room",
+      "score": null,
+      "points": [
+        [
+          1193.984,
+          1010.936
+        ],
+        [
+          1345.536,
+          1010.936
+        ],
+        [
+          1345.536,
+          1157.3799999999999
+        ],
+        [
+          1193.984,
+          1157.3799999999999
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "storage",
+      "score": null,
+      "points": [
+        [
+          1101.824,
+          788.908
+        ],
+        [
+          1347.584,
+          788.908
+        ],
+        [
+          1347.584,
+          1005.031
+        ],
+        [
+          1101.824,
+          1005.031
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1181,
+  "imageWidth": 2048,
+  "description": "The scene features a medical facility with multiple functional areas including private rooms, shared patient rooms, a reception/waiting area, staff offices, exam rooms, bathrooms, and a storage room, all connected by a central corridor."
+}

@@ -1,0 +1,114 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          100.77199999999999,
+          327.74399999999997
+        ],
+        [
+          515.816,
+          327.74399999999997
+        ],
+        [
+          515.816,
+          472.27
+        ],
+        [
+          579.0120000000001,
+          472.27
+        ],
+        [
+          579.0120000000001,
+          523.48
+        ],
+        [
+          495.32,
+          523.48
+        ],
+        [
+          495.32,
+          813.67
+        ],
+        [
+          100.77199999999999,
+          813.67
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "storage",
+      "score": null,
+      "points": [
+        [
+          579.0120000000001,
+          452.92400000000004
+        ],
+        [
+          754.936,
+          452.92400000000004
+        ],
+        [
+          754.936,
+          523.48
+        ],
+        [
+          579.0120000000001,
+          523.48
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          495.32,
+          523.48
+        ],
+        [
+          754.936,
+          523.48
+        ],
+        [
+          754.936,
+          813.67
+        ],
+        [
+          495.32,
+          813.67
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1138,
+  "imageWidth": 854,
+  "description": "A modern open-plan office space featuring a main working area with rows of desks, a lounge or waiting area with a sofa, and a storage corner."
+}

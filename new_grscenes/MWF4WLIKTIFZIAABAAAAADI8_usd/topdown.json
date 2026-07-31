@@ -1,0 +1,69 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          23.07,
+          428.13000000000005
+        ],
+        [
+          342.974,
+          428.13000000000005
+        ],
+        [
+          342.974,
+          777.024
+        ],
+        [
+          23.07,
+          777.024
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          342.974,
+          428.13000000000005
+        ],
+        [
+          745.93,
+          428.13000000000005
+        ],
+        [
+          745.93,
+          848.5920000000001
+        ],
+        [
+          342.974,
+          848.5920000000001
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1278,
+  "imageWidth": 769,
+  "description": "The scene is a top-down view of an interior space. It features two distinct areas: an office area on the left with a U-shaped desk setup, and a waiting area on the right with three couches and a coffee table. The layout is open, connecting the two functional zones."
+}

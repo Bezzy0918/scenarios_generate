@@ -1,0 +1,12 @@
+type: gemini
+name: gpt_5_4_api
+provider: DMXAPI
+display_name: GPT-5.4 API (Indoor Scene)
+model_path: gpt-5.4
+api_base_url_env: DMX_BASE_URL
+api_key_env: DMX_API_KEY
+model_id: gpt-5.4
+user_id: ""
+temperature: 0.6
+timeout: 180
+

@@ -1,0 +1,720 @@
+{
+  "region_areas": [
+    {
+      "region_id": 0,
+      "label": "shopping_area",
+      "polygon": [
+        [
+          262.856,
+          71.78800000000001
+        ],
+        [
+          561.144,
+          71.78800000000001
+        ],
+        [
+          561.144,
+          502.51599999999996
+        ],
+        [
+          262.856,
+          502.51599999999996
+        ]
+      ]
+    }
+  ],
+  "waypoints_by_region": [
+    {
+      "region_id": 0,
+      "label": "shopping_area",
+      "waypoints": [
+        {
+          "id": "wp_r00_shopping_area_001",
+          "pixel": [
+            338,
+            449
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_002",
+          "pixel": [
+            357,
+            458
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_003",
+          "pixel": [
+            379,
+            456
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_004",
+          "pixel": [
+            410,
+            456
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_005",
+          "pixel": [
+            425,
+            450
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_006",
+          "pixel": [
+            420,
+            434
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_007",
+          "pixel": [
+            393,
+            433
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_008",
+          "pixel": [
+            377,
+            441
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_009",
+          "pixel": [
+            355,
+            439
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_010",
+          "pixel": [
+            334,
+            432
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_011",
+          "pixel": [
+            334,
+            407
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_012",
+          "pixel": [
+            353,
+            408
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_013",
+          "pixel": [
+            370,
+            418
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_014",
+          "pixel": [
+            412,
+            411
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_015",
+          "pixel": [
+            411,
+            400
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_016",
+          "pixel": [
+            383,
+            408
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_017",
+          "pixel": [
+            419,
+            390
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_018",
+          "pixel": [
+            421,
+            369
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_019",
+          "pixel": [
+            421,
+            345
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_020",
+          "pixel": [
+            421,
+            319
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_021",
+          "pixel": [
+            389,
+            306
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_022",
+          "pixel": [
+            370,
+            306
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_023",
+          "pixel": [
+            351,
+            306
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_024",
+          "pixel": [
+            334,
+            321
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_025",
+          "pixel": [
+            328,
+            343
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_026",
+          "pixel": [
+            333,
+            364
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_027",
+          "pixel": [
+            331,
+            383
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_028",
+          "pixel": [
+            317,
+            314
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_029",
+          "pixel": [
+            320,
+            278
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_030",
+          "pixel": [
+            325,
+            246
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_031",
+          "pixel": [
+            319,
+            217
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_032",
+          "pixel": [
+            318,
+            187
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_033",
+          "pixel": [
+            320,
+            158
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_034",
+          "pixel": [
+            320,
+            135
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_035",
+          "pixel": [
+            320,
+            114
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_036",
+          "pixel": [
+            327,
+            108
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_037",
+          "pixel": [
+            375,
+            111
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_038",
+          "pixel": [
+            404,
+            107
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_039",
+          "pixel": [
+            446,
+            100
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_040",
+          "pixel": [
+            489,
+            107
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_041",
+          "pixel": [
+            491,
+            118
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_042",
+          "pixel": [
+            465,
+            119
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_043",
+          "pixel": [
+            443,
+            119
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_044",
+          "pixel": [
+            428,
+            122
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_045",
+          "pixel": [
+            391,
+            122
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_046",
+          "pixel": [
+            361,
+            122
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_047",
+          "pixel": [
+            352,
+            122
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_048",
+          "pixel": [
+            343,
+            107
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_049",
+          "pixel": [
+            395,
+            100
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_050",
+          "pixel": [
+            338,
+            199
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_051",
+          "pixel": [
+            362,
+            198
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_052",
+          "pixel": [
+            416,
+            199
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_053",
+          "pixel": [
+            439,
+            199
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_054",
+          "pixel": [
+            470,
+            201
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_055",
+          "pixel": [
+            470,
+            211
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_056",
+          "pixel": [
+            430,
+            205
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_057",
+          "pixel": [
+            408,
+            209
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_058",
+          "pixel": [
+            389,
+            207
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_059",
+          "pixel": [
+            382,
+            197
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_060",
+          "pixel": [
+            364,
+            206
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_061",
+          "pixel": [
+            335,
+            207
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_062",
+          "pixel": [
+            355,
+            213
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_063",
+          "pixel": [
+            489,
+            209
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_064",
+          "pixel": [
+            451,
+            211
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_065",
+          "pixel": [
+            492,
+            201
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_066",
+          "pixel": [
+            495,
+            188
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_067",
+          "pixel": [
+            505,
+            180
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_068",
+          "pixel": [
+            501,
+            160
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_069",
+          "pixel": [
+            498,
+            130
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_070",
+          "pixel": [
+            489,
+            140
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_071",
+          "pixel": [
+            496,
+            169
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_072",
+          "pixel": [
+            497,
+            226
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_073",
+          "pixel": [
+            492,
+            244
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_074",
+          "pixel": [
+            505,
+            238
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_075",
+          "pixel": [
+            503,
+            254
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_076",
+          "pixel": [
+            494,
+            268
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_077",
+          "pixel": [
+            493,
+            293
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_078",
+          "pixel": [
+            495,
+            314
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_079",
+          "pixel": [
+            495,
+            348
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_080",
+          "pixel": [
+            493,
+            361
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_081",
+          "pixel": [
+            505,
+            358
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_082",
+          "pixel": [
+            500,
+            339
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_083",
+          "pixel": [
+            491,
+            329
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_084",
+          "pixel": [
+            461,
+            326
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_085",
+          "pixel": [
+            446,
+            324
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_086",
+          "pixel": [
+            434,
+            308
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_087",
+          "pixel": [
+            470,
+            306
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_088",
+          "pixel": [
+            483,
+            301
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_089",
+          "pixel": [
+            481,
+            293
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_090",
+          "pixel": [
+            469,
+            287
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_091",
+          "pixel": [
+            446,
+            287
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_092",
+          "pixel": [
+            342,
+            288
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_093",
+          "pixel": [
+            362,
+            284
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_094",
+          "pixel": [
+            396,
+            287
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_095",
+          "pixel": [
+            410,
+            302
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_096",
+          "pixel": [
+            410,
+            310
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_097",
+          "pixel": [
+            334,
+            301
+          ]
+        },
+        {
+          "id": "wp_r00_shopping_area_098",
+          "pixel": [
+            458,
+            303
+          ]
+        }
+      ]
+    }
+  ]
+}

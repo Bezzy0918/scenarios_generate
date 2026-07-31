@@ -1,0 +1,502 @@
+{
+  "region_areas": [
+    {
+      "region_id": 0,
+      "label": "lounge_area",
+      "polygon": [
+        [
+          21.200000000000003,
+          557.28
+        ],
+        [
+          178.07999999999998,
+          557.28
+        ],
+        [
+          178.07999999999998,
+          987.624
+        ],
+        [
+          21.200000000000003,
+          987.624
+        ]
+      ]
+    },
+    {
+      "region_id": 1,
+      "label": "bar",
+      "polygon": [
+        [
+          178.07999999999998,
+          557.28
+        ],
+        [
+          534.24,
+          557.28
+        ],
+        [
+          536.2641509433962,
+          747.8993710691822
+        ],
+        [
+          175.25786163522014,
+          751.6729559748426
+        ]
+      ]
+    },
+    {
+      "region_id": 2,
+      "label": "dining_area",
+      "polygon": [
+        [
+          534.24,
+          557.28
+        ],
+        [
+          826.8,
+          557.28
+        ],
+        [
+          826.8,
+          987.624
+        ],
+        [
+          534.24,
+          987.624
+        ]
+      ]
+    },
+    {
+      "region_id": 3,
+      "label": "corridor",
+      "polygon": [
+        [
+          185.32075471698124,
+          754.1886792452831
+        ],
+        [
+          531.2327044025157,
+          757.9622641509435
+        ],
+        [
+          534.24,
+          987.624
+        ],
+        [
+          178.07999999999998,
+          987.624
+        ]
+      ]
+    }
+  ],
+  "waypoints_by_region": [
+    {
+      "region_id": 0,
+      "label": "lounge_area",
+      "waypoints": [
+        {
+          "id": "wp_r00_lounge_area_001",
+          "pixel": [
+            110,
+            617
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_002",
+          "pixel": [
+            142,
+            625
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_003",
+          "pixel": [
+            162,
+            631
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_004",
+          "pixel": [
+            146,
+            671
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_005",
+          "pixel": [
+            120,
+            655
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_006",
+          "pixel": [
+            110,
+            691
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_007",
+          "pixel": [
+            124,
+            715
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_008",
+          "pixel": [
+            156,
+            707
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_009",
+          "pixel": [
+            160,
+            735
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_010",
+          "pixel": [
+            148,
+            759
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_011",
+          "pixel": [
+            120,
+            763
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_012",
+          "pixel": [
+            118,
+            763
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_013",
+          "pixel": [
+            112,
+            864
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_014",
+          "pixel": [
+            118,
+            880
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_015",
+          "pixel": [
+            140,
+            916
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_016",
+          "pixel": [
+            158,
+            892
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_017",
+          "pixel": [
+            152,
+            856
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_018",
+          "pixel": [
+            144,
+            824
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_019",
+          "pixel": [
+            126,
+            806
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_020",
+          "pixel": [
+            108,
+            818
+          ]
+        },
+        {
+          "id": "wp_r00_lounge_area_021",
+          "pixel": [
+            176,
+            814
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": 1,
+      "label": "bar",
+      "waypoints": [
+        {
+          "id": "wp_r01_bar_001",
+          "pixel": [
+            261,
+            677
+          ]
+        },
+        {
+          "id": "wp_r01_bar_002",
+          "pixel": [
+            293,
+            677
+          ]
+        },
+        {
+          "id": "wp_r01_bar_003",
+          "pixel": [
+            363,
+            679
+          ]
+        },
+        {
+          "id": "wp_r01_bar_004",
+          "pixel": [
+            411,
+            679
+          ]
+        },
+        {
+          "id": "wp_r01_bar_005",
+          "pixel": [
+            474,
+            679
+          ]
+        },
+        {
+          "id": "wp_r01_bar_006",
+          "pixel": [
+            476,
+            659
+          ]
+        },
+        {
+          "id": "wp_r01_bar_007",
+          "pixel": [
+            426,
+            657
+          ]
+        },
+        {
+          "id": "wp_r01_bar_008",
+          "pixel": [
+            393,
+            647
+          ]
+        },
+        {
+          "id": "wp_r01_bar_009",
+          "pixel": [
+            333,
+            647
+          ]
+        },
+        {
+          "id": "wp_r01_bar_010",
+          "pixel": [
+            299,
+            647
+          ]
+        },
+        {
+          "id": "wp_r01_bar_011",
+          "pixel": [
+            267,
+            645
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": 2,
+      "label": "dining_area",
+      "waypoints": []
+    },
+    {
+      "region_id": 3,
+      "label": "corridor",
+      "waypoints": [
+        {
+          "id": "wp_r03_corridor_001",
+          "pixel": [
+            233,
+            812
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_002",
+          "pixel": [
+            273,
+            812
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_003",
+          "pixel": [
+            333,
+            812
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_004",
+          "pixel": [
+            389,
+            812
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_005",
+          "pixel": [
+            432,
+            812
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_006",
+          "pixel": [
+            480,
+            812
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_007",
+          "pixel": [
+            482,
+            842
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_008",
+          "pixel": [
+            466,
+            866
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_009",
+          "pixel": [
+            448,
+            870
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_010",
+          "pixel": [
+            361,
+            854
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_011",
+          "pixel": [
+            307,
+            838
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_012",
+          "pixel": [
+            249,
+            838
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_013",
+          "pixel": [
+            218,
+            840
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_014",
+          "pixel": [
+            231,
+            888
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_015",
+          "pixel": [
+            226,
+            890
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_016",
+          "pixel": [
+            327,
+            886
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_017",
+          "pixel": [
+            361,
+            888
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_018",
+          "pixel": [
+            426,
+            908
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_019",
+          "pixel": [
+            466,
+            902
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_020",
+          "pixel": [
+            413,
+            840
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_021",
+          "pixel": [
+            275,
+            870
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_022",
+          "pixel": [
+            508,
+            854
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_023",
+          "pixel": [
+            496,
+            890
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+当前场景连通组规则：
+- waiting_area(0)、corridor(2) 和 office(1/3/4/5/6) 属于同一个连通组。
+- waiting_area(0) 与 corridor(2) 是直接相邻的开放区域，两者之间不需要经过门。
+- 每个 office 只与 corridor(2) 直接相连，不同 office 之间不能直接进入。
+
+当前场景区域连接图：
+- waiting_area(0) <-> corridor(2)
+- corridor(2) <-> office(1)
+- corridor(2) <-> office(3)
+- corridor(2) <-> office(4)
+- corridor(2) <-> office(5)
+- corridor(2) <-> office(6)
+
+路线在 waiting_area(0) 和 corridor(2) 之间移动时，选择两侧相邻且连线可行的 waypoint。
+路线在 corridor(2) 和任一 office 之间移动时，必须严格使用 waypoints_by_region.json 中对应 region_transition 指定的两个 waypoint 穿越门口。
+同名 office 必须使用 region_id 区分，不能仅根据区域名称判断连接关系。

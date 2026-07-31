@@ -1,0 +1,40 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dining_area",
+      "score": null,
+      "points": [
+        [
+          77.7131782945736,
+          362.6395348837208
+        ],
+        [
+          1412.05,
+          334.075
+        ],
+        [
+          1412.05,
+          1534.836
+        ],
+        [
+          83.91472868217056,
+          1539.3837209302326
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1909,
+  "imageWidth": 1550,
+  "description": "The image displays a top-down view of a modern dining establishment, likely a restaurant or a cafeteria, characterized by a clean and bright aesthetic. The layout is systematically organized, featuring distinct seating arrangements and a reception area."
+}

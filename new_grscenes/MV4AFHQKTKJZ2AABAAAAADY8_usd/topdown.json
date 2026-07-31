@@ -1,0 +1,64 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "shop",
+      "score": null,
+      "points": [
+        [
+          577.596,
+          47.792
+        ],
+        [
+          929.64,
+          47.792
+        ],
+        [
+          931.164,
+          313.944
+        ],
+        [
+          925.068,
+          355.144
+        ],
+        [
+          931.164,
+          355.144
+        ],
+        [
+          931.164,
+          779.5039999999999
+        ],
+        [
+          580.644,
+          779.5039999999999
+        ],
+        [
+          580.644,
+          693.808
+        ],
+        [
+          556.26,
+          693.808
+        ],
+        [
+          556.26,
+          47.792
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 824,
+  "imageWidth": 1524,
+  "description": "The image shows a top-down view of a small retail store. The store is organized into distinct areas: a display area with shelves occupying the majority of the floor space, a checkout or reception area with a counter and computer equipment, and a small area near the entrance possibly for waiting or displaying a specific item. Shelves line the walls and form aisles in the center of the room. A checkout counter is situated towards the front left of the store. Near the entrance, there is a round table with a plant, suggesting a welcoming or display element."
+}

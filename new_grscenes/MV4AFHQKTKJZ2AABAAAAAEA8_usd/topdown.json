@@ -1,0 +1,98 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          690.885,
+          1132.8
+        ],
+        [
+          1085.339,
+          1132.8
+        ],
+        [
+          1084.1580000000001,
+          882.05
+        ],
+        [
+          690.885,
+          882.05
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "reception",
+      "score": null,
+      "points": [
+        [
+          527.907,
+          846.65
+        ],
+        [
+          134.63400000000001,
+          846.65
+        ],
+        [
+          135.815,
+          446.925
+        ],
+        [
+          527.907,
+          446.925
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          527.907,
+          846.65
+        ],
+        [
+          527.907,
+          446.925
+        ],
+        [
+          936.533,
+          446.925
+        ],
+        [
+          936.533,
+          846.65
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1475,
+  "imageWidth": 1181,
+  "description": "The image displays an overhead view of a large commercial or office space divided into three distinct functional areas. The space on the top left features a reception/greeting area with desks, while the larger central-right area appears to be a lounge or waiting section with sofas and a central partition. A smaller separate room at the bottom right is arranged as an office space with two desks."
+}

@@ -1,0 +1,69 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          27.984,
+          211.69600000000003
+        ],
+        [
+          27.136,
+          834.2080000000001
+        ],
+        [
+          552.048,
+          834.2080000000001
+        ],
+        [
+          552.048,
+          211.69600000000003
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "corridor",
+      "score": null,
+      "points": [
+        [
+          552.048,
+          238.94400000000002
+        ],
+        [
+          552.048,
+          834.2080000000001
+        ],
+        [
+          811.536,
+          834.2080000000001
+        ],
+        [
+          811.536,
+          238.94400000000002
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1048,
+  "imageWidth": 848,
+  "description": "The image shows a top-down view of a spacious room with wooden floors, white walls, and a large window. The room is furnished with two white sofas, a large wooden desk, and a bookshelf filled with books. There are also a few plants, a trash can, and some decorative items on the walls. The scene seems to be a waiting area or a lounge."
+}

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Conda / local env metadata
+.conda/
+.env/
+
+# Local secrets
+configs/*local*.yaml
+configs/*secret*.yaml
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

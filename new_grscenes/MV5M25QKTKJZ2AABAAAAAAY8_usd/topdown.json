@@ -1,0 +1,214 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          699.3000000000001,
+          390.525
+        ],
+        [
+          699.3000000000001,
+          994.25
+        ],
+        [
+          1042.2,
+          994.25
+        ],
+        [
+          1042.2,
+          390.525
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          702.0,
+          85.075
+        ],
+        [
+          702.0,
+          390.525
+        ],
+        [
+          1042.2,
+          390.525
+        ],
+        [
+          1042.2,
+          85.075
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "corridor",
+      "score": null,
+      "points": [
+        [
+          595.35,
+          85.075
+        ],
+        [
+          595.35,
+          994.25
+        ],
+        [
+          699.3000000000001,
+          994.25
+        ],
+        [
+          699.3000000000001,
+          85.075
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          305.1,
+          85.075
+        ],
+        [
+          305.1,
+          310.575
+        ],
+        [
+          580.5,
+          310.575
+        ],
+        [
+          580.5,
+          85.075
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          305.1,
+          320.825
+        ],
+        [
+          305.1,
+          542.225
+        ],
+        [
+          580.5,
+          542.225
+        ],
+        [
+          580.5,
+          320.825
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          305.1,
+          554.5250000000001
+        ],
+        [
+          305.1,
+          773.875
+        ],
+        [
+          580.5,
+          773.875
+        ],
+        [
+          580.5,
+          554.5250000000001
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          305.1,
+          781.05
+        ],
+        [
+          305.1,
+          994.25
+        ],
+        [
+          580.5,
+          994.25
+        ],
+        [
+          580.5,
+          781.05
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1025,
+  "imageWidth": 1350,
+  "description": "The image displays a modern, brightly lit clinic or office floor plan from a top-down perspective. It features multiple private examination or office rooms, a central reception and waiting area, a dedicated workspace or office, and a corridor connecting the spaces."
+}

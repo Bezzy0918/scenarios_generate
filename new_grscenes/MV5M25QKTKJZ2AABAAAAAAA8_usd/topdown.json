@@ -1,0 +1,180 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          899.815,
+          38.976
+        ],
+        [
+          1237.04,
+          38.976
+        ],
+        [
+          1237.04,
+          178.64000000000001
+        ],
+        [
+          1186.0449999999998,
+          178.64000000000001
+        ],
+        [
+          1186.0449999999998,
+          470.96
+        ],
+        [
+          1139.985,
+          470.96
+        ],
+        [
+          1139.985,
+          493.69599999999997
+        ],
+        [
+          899.815,
+          493.69599999999997
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "reception",
+      "score": null,
+      "points": [
+        [
+          52.64,
+          795.76
+        ],
+        [
+          521.465,
+          795.76
+        ],
+        [
+          521.465,
+          1594.768
+        ],
+        [
+          52.64,
+          1594.768
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          1218.945,
+          25.984
+        ],
+        [
+          1590.715,
+          25.984
+        ],
+        [
+          1590.715,
+          472.58399999999995
+        ],
+        [
+          1218.945,
+          472.58399999999995
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "classroom",
+      "score": null,
+      "points": [
+        [
+          1240.33,
+          466.08799999999997
+        ],
+        [
+          1584.135,
+          466.08799999999997
+        ],
+        [
+          1584.135,
+          1000.384
+        ],
+        [
+          1240.33,
+          1000.384
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "corridor",
+      "score": null,
+      "points": [
+        [
+          536.1666666666665,
+          811.0
+        ],
+        [
+          902.8333333333333,
+          808.333333333333
+        ],
+        [
+          899.815,
+          466.08799999999997
+        ],
+        [
+          1240.33,
+          466.08799999999997
+        ],
+        [
+          1240.33,
+          1000.384
+        ],
+        [
+          528.1666666666665,
+          1000.333333333333
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1624,
+  "imageWidth": 1645,
+  "description": "A top-down view of an indoor scene containing 5 regions: waiting_area, reception, office, classroom, and corridor."
+}

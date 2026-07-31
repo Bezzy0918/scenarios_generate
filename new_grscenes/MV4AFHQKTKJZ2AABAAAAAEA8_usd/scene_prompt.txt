@@ -1,0 +1,11 @@
+当前场景连通组规则：
+- office(0)、reception(1) 和 waiting_area(2) 属于同一个连通组。
+- reception(1) 与 waiting_area(2) 是直接相邻的开放区域，两者之间不需要经过门。
+- office(0) 只能通过 waiting_area(2) 进入，不能从 reception(1) 直接进入。
+
+当前场景区域连接图：
+- reception(1) <-> waiting_area(2)
+- waiting_area(2) <-> office(0)
+
+路线在 reception(1) 和 waiting_area(2) 之间移动时，选择两侧相邻且连线可行的 waypoint。
+路线在 waiting_area(2) 和 office(0) 之间移动时，必须严格使用 waypoints_by_region.json 中对应 region_transition 指定的两个 waypoint 穿越门口。

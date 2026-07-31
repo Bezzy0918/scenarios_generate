@@ -1,0 +1,77 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          14.65,
+          430.59000000000003
+        ],
+        [
+          228.54000000000002,
+          430.59000000000003
+        ],
+        [
+          228.54000000000002,
+          611.1600000000001
+        ],
+        [
+          14.65,
+          611.1600000000001
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          263.7,
+          291.69
+        ],
+        [
+          571.35,
+          291.69
+        ],
+        [
+          571.35,
+          637.088
+        ],
+        [
+          239.088,
+          637.088
+        ],
+        [
+          239.088,
+          391.698
+        ],
+        [
+          263.7,
+          391.698
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 926,
+  "imageWidth": 586,
+  "description": "A top-down view of a medical clinic with two main areas: a private examination room on the left and a larger combined waiting area and reception space on the right."
+}

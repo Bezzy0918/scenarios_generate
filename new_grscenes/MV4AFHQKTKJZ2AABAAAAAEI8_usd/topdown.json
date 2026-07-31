@@ -1,0 +1,68 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "shop",
+      "score": null,
+      "points": [
+        [
+          404.41599999999994,
+          53.248
+        ],
+        [
+          991.1039999999999,
+          53.248
+        ],
+        [
+          999.6479999999999,
+          482.304
+        ],
+        [
+          825.92,
+          482.304
+        ],
+        [
+          825.92,
+          773.12
+        ],
+        [
+          857.2479999999999,
+          773.12
+        ],
+        [
+          857.2479999999999,
+          958.464
+        ],
+        [
+          381.632,
+          958.464
+        ],
+        [
+          381.632,
+          696.32
+        ],
+        [
+          411.53599999999994,
+          696.32
+        ],
+        [
+          404.41599999999994,
+          343.04
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1024,
+  "imageWidth": 1424,
+  "description": "The image displays a floor plan of a commercial space, likely a convenience store or a small supermarket. It includes multiple aisles for shopping, a checkout counter, and what appears to be an office or backroom area. The main shopping area is equipped with shelves for displaying goods, and the checkout counter is situated towards the left. The backroom is located at the bottom left corner."
+}

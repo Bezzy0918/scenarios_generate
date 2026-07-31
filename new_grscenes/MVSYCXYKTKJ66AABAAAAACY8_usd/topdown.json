@@ -1,0 +1,77 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "reception",
+      "score": null,
+      "points": [
+        [
+          774.048,
+          611.2
+        ],
+        [
+          774.048,
+          726.4
+        ],
+        [
+          392.832,
+          726.4
+        ],
+        [
+          392.832,
+          611.2
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "classroom",
+      "score": null,
+      "points": [
+        [
+          285.12,
+          97.6
+        ],
+        [
+          779.328,
+          97.6
+        ],
+        [
+          779.328,
+          611.2
+        ],
+        [
+          392.832,
+          611.2
+        ],
+        [
+          392.832,
+          726.4
+        ],
+        [
+          285.12,
+          726.4
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 800,
+  "imageWidth": 1056,
+  "description": "An indoor top-down view showing a multi-functional space, possibly a classroom or an early childhood education center. It includes a reception or administrative area near the entrance, a main classroom or play area with a large open floor space, some seating, and storage. The room has a consistent herringbone wood floor and large windows along one side."
+}

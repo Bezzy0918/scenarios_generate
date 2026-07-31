@@ -1,0 +1,101 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "shop",
+      "score": null,
+      "points": [
+        [
+          673.792,
+          38.784
+        ],
+        [
+          1181.696,
+          38.784
+        ],
+        [
+          1177.6,
+          406.02000000000004
+        ],
+        [
+          1161.216,
+          406.02000000000004
+        ],
+        [
+          1163.264,
+          782.952
+        ],
+        [
+          1185.792,
+          782.952
+        ],
+        [
+          1181.696,
+          1170.792
+        ],
+        [
+          694.272,
+          1170.792
+        ],
+        [
+          688.128,
+          778.104
+        ],
+        [
+          673.792,
+          778.104
+        ],
+        [
+          675.84,
+          404.80800000000005
+        ],
+        [
+          673.792,
+          404.80800000000005
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          1189.888,
+          410.86800000000005
+        ],
+        [
+          1366.016,
+          410.86800000000005
+        ],
+        [
+          1366.016,
+          787.8000000000001
+        ],
+        [
+          1187.84,
+          787.8000000000001
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1212,
+  "imageWidth": 2048,
+  "description": "The scene is a small grocery store or convenience store with aisles of shelves, refrigerated cases, a counter area, and some seating or display tables. The layout includes a main shopping area and a separate room that appears to be an office or backroom."
+}

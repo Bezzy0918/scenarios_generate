@@ -1,0 +1,151 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          120.12,
+          15.350000000000001
+        ],
+        [
+          360.36,
+          15.350000000000001
+        ],
+        [
+          360.36,
+          264.02
+        ],
+        [
+          120.12,
+          264.02
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          371.28000000000003,
+          15.350000000000001
+        ],
+        [
+          600.6,
+          15.350000000000001
+        ],
+        [
+          600.6,
+          276.3
+        ],
+        [
+          371.28000000000003,
+          276.3
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "reception",
+      "score": null,
+      "points": [
+        [
+          120.12,
+          276.3
+        ],
+        [
+          345.8,
+          276.3
+        ],
+        [
+          345.8,
+          389.89
+        ],
+        [
+          120.12,
+          389.89
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          345.8,
+          276.3
+        ],
+        [
+          360.36,
+          276.3
+        ],
+        [
+          360.36,
+          264.02
+        ],
+        [
+          371.28000000000003,
+          264.02
+        ],
+        [
+          371.28000000000003,
+          276.3
+        ],
+        [
+          600.6,
+          276.3
+        ],
+        [
+          600.6,
+          543.39
+        ],
+        [
+          120.12,
+          543.39
+        ],
+        [
+          120.12,
+          389.89
+        ],
+        [
+          345.8,
+          389.89
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 614,
+  "imageWidth": 728,
+  "description": "A small clinic or office suite featuring a reception area, a dedicated examination room or private office, an open workspace, and a comfortable waiting area with seating."
+}

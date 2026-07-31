@@ -1,0 +1,9 @@
+当前场景连通组规则：
+- office(0) 和 waiting_area(2) 属于同一个连通组。
+- 两个 region 是直接相邻的开放区域，可以通过相邻边界进入。
+- storage(1) 没有可选 waypoint，不参与行人或机器人路线规划。
+
+当前场景区域连接图：
+- office(0) <-> waiting_area(2)
+
+当前场景没有固定 region_transition，跨区域时必须选择两侧相邻且连线可行的 waypoint，不能穿过办公桌、沙发或其他障碍物。

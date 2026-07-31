@@ -1,0 +1,13 @@
+当前场景连通组规则：
+- reception(2)、waiting_area(3)、office(1) 和 office(0) 属于同一个连通组。
+- reception(2) 只与 waiting_area(3) 直接相连。
+- office(0) 只与 office(1) 直接相连，不能直接进入 waiting_area(3)。
+
+当前场景区域连接图：
+- reception(2) <-> waiting_area(3)
+- waiting_area(3) <-> office(1)
+- office(1) <-> office(0)
+
+路线在 waiting_area(3) 和 office(1) 之间移动时，选择两侧相邻且连线可行的 waypoint。
+路线在 reception(2) 与 waiting_area(3) 之间，或在 office(1) 与 office(0) 之间移动时，必须严格使用 waypoints_by_region.json 中对应 region_transition 指定的两个 waypoint。
+同名 office 必须使用 region_id 区分，不能仅根据区域名称判断连接关系。

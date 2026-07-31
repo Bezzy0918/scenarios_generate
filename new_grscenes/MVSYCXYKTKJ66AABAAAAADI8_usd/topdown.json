@@ -1,0 +1,40 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          18.452,
+          801.483
+        ],
+        [
+          23.065,
+          494.919
+        ],
+        [
+          620.1189999999999,
+          494.919
+        ],
+        [
+          620.1189999999999,
+          801.483
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1299,
+  "imageWidth": 659,
+  "description": "The image displays a floor plan of a commercial space, likely a waiting area or lounge. It features several seating arrangements, including couches and tables, organized along a window wall. There is also a shelf structure possibly holding wine or decorative items. The space is open and appears to be designed for relaxation or casual meetings."
+}

@@ -1,0 +1,225 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          186.48,
+          31.175
+        ],
+        [
+          189.2369477911647,
+          536.144578313253
+        ],
+        [
+          436.6265060240965,
+          535.3413654618471
+        ],
+        [
+          436.6265060240965,
+          695.9839357429718
+        ],
+        [
+          593.4599999999999,
+          694.45
+        ],
+        [
+          593.4599999999999,
+          731.0
+        ],
+        [
+          618.66,
+          731.0
+        ],
+        [
+          618.66,
+          983.625
+        ],
+        [
+          709.3799999999999,
+          983.625
+        ],
+        [
+          709.3799999999999,
+          31.175
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "reception",
+      "score": null,
+      "points": [
+        [
+          236.62650602409644,
+          715.2610441767067
+        ],
+        [
+          206.10441767068278,
+          716.867469879518
+        ],
+        [
+          205.38,
+          698.75
+        ],
+        [
+          206.10441767068278,
+          559.4377510040158
+        ],
+        [
+          389.2369477911647,
+          572.2891566265059
+        ],
+        [
+          391.86,
+          714.875
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          734.5799999999999,
+          469.775
+        ],
+        [
+          734.5799999999999,
+          714.875
+        ],
+        [
+          1025.6399999999999,
+          714.875
+        ],
+        [
+          1025.6399999999999,
+          469.775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          734.5799999999999,
+          729.9250000000001
+        ],
+        [
+          734.5799999999999,
+          1050.275
+        ],
+        [
+          1025.6399999999999,
+          1050.275
+        ],
+        [
+          1025.6399999999999,
+          729.9250000000001
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          734.5799999999999,
+          150.50000000000003
+        ],
+        [
+          734.5799999999999,
+          454.72499999999997
+        ],
+        [
+          1025.6399999999999,
+          454.72499999999997
+        ],
+        [
+          1025.6399999999999,
+          268.75
+        ],
+        [
+          874.4399999999999,
+          268.75
+        ],
+        [
+          874.4399999999999,
+          150.50000000000003
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          189.0,
+          731.0
+        ],
+        [
+          189.0,
+          1050.275
+        ],
+        [
+          573.3000000000001,
+          1050.275
+        ],
+        [
+          573.3000000000001,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1075,
+  "imageWidth": 1260,
+  "description": "The image shows a floor plan of a clinic or medical facility. The plan includes a spacious waiting area with multiple blue chairs, a reception desk, a bathroom, three consultation or treatment rooms equipped with beds and privacy curtains, a private office or break room, and a corridor connecting the different functional areas."
+}

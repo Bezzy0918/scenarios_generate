@@ -1,0 +1,211 @@
+# GRScenes Scenario Generator
+
+这个仓库用于基于准备好的 GRScenes 俯视图、navmesh、区域和 waypoint，生成 HuNav / Arena 可用的 `scenario.yaml`。
+
+
+
+- `new_grscenes/`：场景资产包，每个 scene 一个目录。
+- `scripts/`：标注、检查、生成 scenario 的工具脚本。
+
+## 目录结构
+
+```text
+scenarios_generate/
+├── new_grscenes/
+│   └── <scene_id>/
+│       ├── map.yaml
+│       ├── navmesh_mask.png
+│       ├── overlay.png
+│       ├── topdown.png
+│       ├── topdown.json
+│       ├── topdown_mapping.json
+│       ├── waypoints_by_region.json
+│       ├── scene_prompt.txt
+│       └── regions_waypoints_overview.png
+├── scripts/
+├── configs/
+├── examples/
+├── requirements.txt
+└── README.md
+```
+
+每个场景目录中的标准文件含义：
+
+| 文件 | 作用 |
+| --- | --- |
+| `topdown.png` | 原始俯视图，用于查看场景布局。 |
+| `overlay.png` | 带语义/区域的俯视图，便于人工判断家具、通道和房间。 |
+| `navmesh_mask.png` | 可通行区域 mask，用于标 waypoint 和判断连通性。 |
+| `topdown_mapping.json` | 像素坐标到世界坐标的转换；生成 scenario 必需。 |
+| `topdown.json` | 区域 polygon 和标签；用于画区域、分组 waypoint。 |
+| `waypoints_by_region.json` | 每个区域内的 waypoint，以及可选的跨区域 `region_transitions`。 |
+| `scene_prompt.txt` | 场景连通规则说明，供 LLM 生成路径时参考。 |
+| `regions_waypoints_overview.png` | 区域、waypoint、跨区域连接的总览检查图。 |
+| `map.yaml` | 导航地图相关元信息。 |
+
+## 安装依赖
+
+```bash
+conda create -n scenarios_generate python=3.10 -y
+conda activate scenarios_generate
+cd ~/scenarios_generate
+pip install -r requirements.txt
+```
+
+## 最常用流程：手动点 robot / human 轨迹
+
+这是最稳定、最可控的方式。
+
+```bash
+cd ~/scenarios_generate
+python3 scripts/manual_scenario_editor.py \
+  --scene-dir new_grscenes/<scene_id> \
+  --output new_outputs/<scene_id>/manual_scenario.yaml
+```
+
+示例：
+
+```bash
+python3 scripts/manual_scenario_editor.py \
+  --scene-dir new_grscenes/MWHLEPQKTIFZIAABAAAAAAA8_usd \
+  --output new_outputs/MWHLEPQKTIFZIAABAAAAAAA8_usd/manual_scenario.yaml
+```
+
+窗口操作：
+
+- `r`：切到 / 创建 robot 轨迹。
+- `h`：新建一条 human 轨迹。
+- 鼠标左键：给当前轨迹加点。第一个点是起点，后续点是路径点。
+- `u`：撤销当前轨迹最后一个点。
+- `s`：保存 YAML 和预览图。
+- `q`：退出。
+
+默认会把点击位置吸附到附近 waypoint，适合当前这套 waypoint 流程。如果想完全自由点坐标：
+
+```bash
+python3 scripts/manual_scenario_editor.py \
+  --scene-dir new_grscenes/<scene_id> \
+  --output new_outputs/<scene_id>/manual_scenario.yaml \
+  --no-snap
+```
+
+输出：
+
+```text
+new_outputs/<scene_id>/manual_scenario.yaml
+new_outputs/<scene_id>/manual_scenario_preview.png
+```
+
+## 自动生成多个 scenario
+
+自动生成依赖 LLM 配置。先复制配置模板：
+
+```bash
+cp configs/llm_config.example.yaml configs/llm_config.local.yaml
+```
+
+设置环境变量，例如：
+
+```bash
+export DMX_BASE_URL="https://your-api-base.example/v1beta"
+export DMX_API_KEY="your_api_key"
+```
+
+然后运行：
+
+```bash
+python3 scripts/generate_scenario_variants.py \
+  --scene-dir new_grscenes/<scene_id> \
+  --output-root new_outputs \
+  --llm-config configs/llm_config.local.yaml \
+  --prompt "生成 2 个行人和 1 条机器人路线，路线要合理避开家具并尽量产生交互" \
+  --count 5 \
+  --pedestrians 2
+```
+
+输出结构：
+
+```text
+new_outputs/<scene_id>/
+├── scenario_001/
+│   ├── llm_agents.json
+│   ├── generated_scenario.yaml
+│   └── scenario_preview.png
+├── scenario_002/
+└── scenarios_overview.png
+```
+
+## 标注 / 更新 waypoint
+
+如果一个新场景还没有 `waypoints_by_region.json`，使用：
+
+```bash
+python3 scripts/mark_waypoints_by_region.py \
+  --scene-dir new_grscenes/<scene_id>
+```
+
+常用操作：
+
+- 左键：新增 waypoint。
+- `backspace` / `delete`：撤销最近一个新增 waypoint。
+- `s`：保存。
+- `q`：保存并退出。
+
+如果要在已有文件后面继续追加 waypoint：
+
+```bash
+python3 scripts/mark_waypoints_by_region.py \
+  --scene-dir new_grscenes/<scene_id> \
+  --append
+```
+
+## 标注跨区域连接 waypoint
+
+如果两个区域之间只有门口/窄通道可以通过，需要在 `waypoints_by_region.json` 中补 `region_transitions`：
+
+```bash
+python3 scripts/mark_region_transitions.py \
+  --scene-dir new_grscenes/<scene_id>
+```
+
+操作：
+
+- 左键点第一个区域的连接 waypoint。
+- 左键点另一个区域的连接 waypoint。
+- `s`：保存这一对 transition。
+- `backspace` / `delete`：撤销当前选择。
+- `q`：保存并退出。
+
+如果 waypoint 名字太挡图：
+
+```bash
+python3 scripts/mark_region_transitions.py \
+  --scene-dir new_grscenes/<scene_id> \
+  --hide-waypoint-names
+```
+
+## 重新生成区域 waypoint 总览图
+
+每次改完 waypoint 或 transition 后，建议重新生成检查图：
+
+```bash
+python3 scripts/draw_waypoints_by_region.py \
+  --scene-dir new_grscenes/<scene_id> \
+  --output new_grscenes/<scene_id>/regions_waypoints_overview.png \
+  --show-region-ids \
+  --hide-waypoint-names
+```
+
+## 检查已有 scenario 的轨迹
+
+把 `scenario.yaml` 画回俯视图：
+
+```bash
+python3 scripts/topdown_click_to_world.py \
+  --mapping new_grscenes/<scene_id>/topdown_mapping.json \
+  --view overlay \
+  --scenario new_outputs/<scene_id>/manual_scenario.yaml \
+  --save-overlay new_outputs/<scene_id>/manual_scenario_check.png \
+  --no-show
+```
+

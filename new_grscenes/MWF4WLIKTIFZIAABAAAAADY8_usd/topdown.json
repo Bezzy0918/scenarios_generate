@@ -1,0 +1,159 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "kitchen",
+      "score": null,
+      "points": [
+        [
+          800.748,
+          50.364
+        ],
+        [
+          1314.638,
+          50.364
+        ],
+        [
+          1314.638,
+          247.623
+        ],
+        [
+          1231.8020000000001,
+          247.623
+        ],
+        [
+          1231.8020000000001,
+          384.725
+        ],
+        [
+          800.748,
+          384.725
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "treatment_area",
+      "score": null,
+      "points": [
+        [
+          170.274,
+          183.269
+        ],
+        [
+          575.25,
+          183.269
+        ],
+        [
+          575.25,
+          1196.145
+        ],
+        [
+          170.274,
+          1196.145
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          668.824,
+          909.35
+        ],
+        [
+          1161.238,
+          909.35
+        ],
+        [
+          1161.238,
+          1196.145
+        ],
+        [
+          668.824,
+          1196.145
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "corridor",
+      "score": null,
+      "points": [
+        [
+          575.25,
+          183.269
+        ],
+        [
+          800.748,
+          183.269
+        ],
+        [
+          800.748,
+          384.725
+        ],
+        [
+          1231.8020000000001,
+          384.725
+        ],
+        [
+          1231.8020000000001,
+          1196.145
+        ],
+        [
+          1161.238,
+          1196.145
+        ],
+        [
+          1161.238,
+          909.35
+        ],
+        [
+          668.824,
+          909.35
+        ],
+        [
+          668.824,
+          1196.145
+        ],
+        [
+          575.25,
+          1196.145
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1399,
+  "imageWidth": 1534,
+  "description": "A top-down view of a spacious commercial or medical facility, such as a clinic or blood donation center. The layout includes a long reception counter at the bottom edge. On the left side, there is a dedicated treatment or resting area featuring three separate bays, each equipped with a bed and side table. The top right corner houses a small kitchen and break area with appliances and bar stools. Along the top-left and entire right wall are built-in storage cabinets. A waiting or dining area with small round tables and chairs is situated in the lower right. A large central corridor connects all these functional zones."
+}

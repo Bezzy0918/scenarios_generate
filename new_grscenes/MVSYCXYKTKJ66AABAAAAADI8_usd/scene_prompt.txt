@@ -1,0 +1,9 @@
+当前场景连通组规则：
+- waiting_area(0) 是当前场景唯一参与规划的 region。
+- 所有行人和机器人的路线只能在 waiting_area(0) 内部规划。
+- 当前场景不存在跨 region 路线，不需要 region_transitions，不要虚构其他 region 或区域连接关系。
+
+当前场景区域连接图：
+- 无跨区域连接。
+
+路线必须完全使用 waiting_area(0) 中的 waypoint，并按照等候区域内部的实际连通关系依次选择。

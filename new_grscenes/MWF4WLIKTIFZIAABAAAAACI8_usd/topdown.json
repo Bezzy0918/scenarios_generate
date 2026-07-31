@@ -1,0 +1,69 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          117.87200000000001,
+          259.056
+        ],
+        [
+          514.736,
+          259.056
+        ],
+        [
+          514.736,
+          762.776
+        ],
+        [
+          117.87200000000001,
+          762.776
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "kitchen",
+      "score": null,
+      "points": [
+        [
+          514.736,
+          259.056
+        ],
+        [
+          735.216,
+          259.056
+        ],
+        [
+          735.216,
+          762.776
+        ],
+        [
+          514.736,
+          762.776
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1028,
+  "imageWidth": 848,
+  "description": "The scene features an open-plan space with a distinct office area on the left and a kitchen area on the right."
+}

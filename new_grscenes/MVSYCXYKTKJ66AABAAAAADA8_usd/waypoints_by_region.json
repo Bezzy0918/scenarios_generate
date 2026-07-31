@@ -1,0 +1,624 @@
+{
+  "region_areas": [
+    {
+      "region_id": 0,
+      "label": "dining_room",
+      "polygon": [
+        [
+          282.53030303030295,
+          262.6818181818182
+        ],
+        [
+          279.50000000000006,
+          302.07575757575756
+        ],
+        [
+          584.216,
+          301.84700000000004
+        ],
+        [
+          587.052,
+          591.71
+        ],
+        [
+          121.948,
+          593.2080000000001
+        ],
+        [
+          119.11200000000001,
+          264.397
+        ],
+        [
+          117.68181818181824,
+          265.7121212121212
+        ],
+        [
+          138.2878787878788,
+          266.3181818181818
+        ]
+      ]
+    }
+  ],
+  "waypoints_by_region": [
+    {
+      "region_id": 0,
+      "label": "dining_room",
+      "waypoints": [
+        {
+          "id": "wp_r00_dining_room_001",
+          "pixel": [
+            152,
+            287
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_002",
+          "pixel": [
+            189,
+            287
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_003",
+          "pixel": [
+            231,
+            287
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_004",
+          "pixel": [
+            268,
+            287
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_005",
+          "pixel": [
+            267,
+            310
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_006",
+          "pixel": [
+            243,
+            312
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_007",
+          "pixel": [
+            187,
+            302
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_008",
+          "pixel": [
+            158,
+            310
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_009",
+          "pixel": [
+            147,
+            338
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_010",
+          "pixel": [
+            147,
+            356
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_011",
+          "pixel": [
+            151,
+            377
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_012",
+          "pixel": [
+            151,
+            403
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_013",
+          "pixel": [
+            158,
+            418
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_014",
+          "pixel": [
+            159,
+            427
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_015",
+          "pixel": [
+            164,
+            380
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_016",
+          "pixel": [
+            164,
+            358
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_017",
+          "pixel": [
+            177,
+            346
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_018",
+          "pixel": [
+            194,
+            339
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_019",
+          "pixel": [
+            205,
+            334
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_020",
+          "pixel": [
+            217,
+            374
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_021",
+          "pixel": [
+            210,
+            384
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_022",
+          "pixel": [
+            159,
+            381
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_023",
+          "pixel": [
+            295,
+            381
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_024",
+          "pixel": [
+            334,
+            390
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_025",
+          "pixel": [
+            340,
+            410
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_026",
+          "pixel": [
+            338,
+            443
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_027",
+          "pixel": [
+            346,
+            472
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_028",
+          "pixel": [
+            354,
+            521
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_029",
+          "pixel": [
+            352,
+            549
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_030",
+          "pixel": [
+            333,
+            563
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_031",
+          "pixel": [
+            364,
+            567
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_032",
+          "pixel": [
+            331,
+            545
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_033",
+          "pixel": [
+            332,
+            515
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_034",
+          "pixel": [
+            334,
+            496
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_035",
+          "pixel": [
+            362,
+            494
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_036",
+          "pixel": [
+            367,
+            449
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_037",
+          "pixel": [
+            367,
+            432
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_038",
+          "pixel": [
+            373,
+            392
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_039",
+          "pixel": [
+            363,
+            360
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_040",
+          "pixel": [
+            361,
+            336
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_041",
+          "pixel": [
+            351,
+            320
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_042",
+          "pixel": [
+            319,
+            325
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_043",
+          "pixel": [
+            341,
+            375
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_044",
+          "pixel": [
+            313,
+            386
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_045",
+          "pixel": [
+            291,
+            412
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_046",
+          "pixel": [
+            301,
+            432
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_047",
+          "pixel": [
+            251,
+            386
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_048",
+          "pixel": [
+            233,
+            387
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_049",
+          "pixel": [
+            275,
+            400
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_050",
+          "pixel": [
+            269,
+            356
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_051",
+          "pixel": [
+            245,
+            341
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_052",
+          "pixel": [
+            235,
+            332
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_053",
+          "pixel": [
+            275,
+            337
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_054",
+          "pixel": [
+            299,
+            337
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_055",
+          "pixel": [
+            314,
+            362
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_056",
+          "pixel": [
+            247,
+            366
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_057",
+          "pixel": [
+            214,
+            351
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_058",
+          "pixel": [
+            194,
+            365
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_059",
+          "pixel": [
+            178,
+            379
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_060",
+          "pixel": [
+            182,
+            411
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_061",
+          "pixel": [
+            375,
+            348
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_062",
+          "pixel": [
+            412,
+            352
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_063",
+          "pixel": [
+            431,
+            355
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_064",
+          "pixel": [
+            464,
+            356
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_065",
+          "pixel": [
+            491,
+            353
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_066",
+          "pixel": [
+            536,
+            370
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_067",
+          "pixel": [
+            563,
+            393
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_068",
+          "pixel": [
+            559,
+            407
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_069",
+          "pixel": [
+            538,
+            414
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_070",
+          "pixel": [
+            538,
+            435
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_071",
+          "pixel": [
+            530,
+            394
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_072",
+          "pixel": [
+            506,
+            385
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_073",
+          "pixel": [
+            459,
+            382
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_074",
+          "pixel": [
+            412,
+            382
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_075",
+          "pixel": [
+            396,
+            395
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_076",
+          "pixel": [
+            393,
+            413
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_077",
+          "pixel": [
+            389,
+            427
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_078",
+          "pixel": [
+            434,
+            397
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_079",
+          "pixel": [
+            472,
+            395
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_080",
+          "pixel": [
+            498,
+            402
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_081",
+          "pixel": [
+            507,
+            414
+          ]
+        },
+        {
+          "id": "wp_r00_dining_room_082",
+          "pixel": [
+            520,
+            339
+          ]
+        }
+      ]
+    }
+  ]
+}

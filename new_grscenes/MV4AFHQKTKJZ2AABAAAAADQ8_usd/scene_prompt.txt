@@ -1,0 +1,14 @@
+当前场景连通组规则：
+- waiting_area(0)、office(2)、office(3)、office(4) 属于一号组。
+- office(5) 属于独立的二号组，只能在该区域内部规划路线。
+- reception(1) 没有可选 waypoint，不参与行人或机器人路线规划。
+- 不同组之间不能连通进入，单个行人或机器人的路线只能在同一组内规划。
+- 如果用户需求要求跨组，请选择同组内语义最接近的可行路线替代。
+
+当前场景区域连接图：
+- waiting_area(0) <-> office(2)
+- waiting_area(0) <-> office(3)
+- waiting_area(0) <-> office(4)
+
+路线从一个 region 进入另一个 region 时，目标 region 必须与当前 region 直接相连，并且必须严格使用 waypoints_by_region.json 中对应 region_transition 指定的两个 waypoint 穿越区域边界。
+同名 office 必须使用 region_id 区分，不能仅根据区域名称判断连接关系。

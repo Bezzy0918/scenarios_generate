@@ -1,0 +1,40 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "classroom",
+      "score": null,
+      "points": [
+        [
+          106.55399999999999,
+          491.46900000000005
+        ],
+        [
+          1191.918,
+          491.46900000000005
+        ],
+        [
+          1191.918,
+          1234.7939999999999
+        ],
+        [
+          106.55399999999999,
+          1234.7939999999999
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1749,
+  "imageWidth": 1239,
+  "description": "The scene features a large, single open room equipped for activities such as playing and learning, typical of a classroom or a large play area. It includes various objects like couches, shelves, toys, and a piano."
+}

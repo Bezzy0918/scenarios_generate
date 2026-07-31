@@ -1,0 +1,1085 @@
+{
+  "region_areas": [
+    {
+      "region_id": 0,
+      "label": "kitchen",
+      "polygon": [
+        [
+          800.748,
+          50.364
+        ],
+        [
+          1314.638,
+          50.364
+        ],
+        [
+          1314.638,
+          247.623
+        ],
+        [
+          1231.8020000000001,
+          247.623
+        ],
+        [
+          1231.8020000000001,
+          384.725
+        ],
+        [
+          800.748,
+          384.725
+        ]
+      ]
+    },
+    {
+      "region_id": 1,
+      "label": "treatment_area",
+      "polygon": [
+        [
+          170.274,
+          183.269
+        ],
+        [
+          575.25,
+          183.269
+        ],
+        [
+          575.25,
+          1196.145
+        ],
+        [
+          170.274,
+          1196.145
+        ]
+      ]
+    },
+    {
+      "region_id": 2,
+      "label": "waiting_area",
+      "polygon": [
+        [
+          668.824,
+          909.35
+        ],
+        [
+          1161.238,
+          909.35
+        ],
+        [
+          1161.238,
+          1196.145
+        ],
+        [
+          668.824,
+          1196.145
+        ]
+      ]
+    },
+    {
+      "region_id": 3,
+      "label": "corridor",
+      "polygon": [
+        [
+          575.25,
+          183.269
+        ],
+        [
+          800.748,
+          183.269
+        ],
+        [
+          800.748,
+          384.725
+        ],
+        [
+          1231.8020000000001,
+          384.725
+        ],
+        [
+          1231.8020000000001,
+          1196.145
+        ],
+        [
+          1161.238,
+          1196.145
+        ],
+        [
+          1161.238,
+          909.35
+        ],
+        [
+          668.824,
+          909.35
+        ],
+        [
+          668.824,
+          1196.145
+        ],
+        [
+          575.25,
+          1196.145
+        ]
+      ]
+    }
+  ],
+  "waypoints_by_region": [
+    {
+      "region_id": 0,
+      "label": "kitchen",
+      "waypoints": []
+    },
+    {
+      "region_id": 1,
+      "label": "treatment_area",
+      "waypoints": []
+    },
+    {
+      "region_id": 2,
+      "label": "waiting_area",
+      "waypoints": []
+    },
+    {
+      "region_id": 3,
+      "label": "corridor",
+      "waypoints": [
+        {
+          "id": "wp_r03_corridor_001",
+          "pixel": [
+            603,
+            228
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_002",
+          "pixel": [
+            670,
+            238
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_003",
+          "pixel": [
+            717,
+            234
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_004",
+          "pixel": [
+            737,
+            234
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_005",
+          "pixel": [
+            763,
+            261
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_006",
+          "pixel": [
+            745,
+            305
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_007",
+          "pixel": [
+            681,
+            301
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_008",
+          "pixel": [
+            639,
+            287
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_009",
+          "pixel": [
+            610,
+            270
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_010",
+          "pixel": [
+            588,
+            394
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_011",
+          "pixel": [
+            599,
+            421
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_012",
+          "pixel": [
+            608,
+            490
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_013",
+          "pixel": [
+            603,
+            601
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_014",
+          "pixel": [
+            598,
+            674
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_015",
+          "pixel": [
+            601,
+            730
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_016",
+          "pixel": [
+            592,
+            801
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_017",
+          "pixel": [
+            587,
+            883
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_018",
+          "pixel": [
+            598,
+            950
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_019",
+          "pixel": [
+            598,
+            995
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_020",
+          "pixel": [
+            625,
+            1051
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_021",
+          "pixel": [
+            647,
+            1002
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_022",
+          "pixel": [
+            656,
+            930
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_023",
+          "pixel": [
+            670,
+            855
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_024",
+          "pixel": [
+            676,
+            813
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_025",
+          "pixel": [
+            688,
+            717
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_026",
+          "pixel": [
+            690,
+            646
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_027",
+          "pixel": [
+            690,
+            554
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_028",
+          "pixel": [
+            690,
+            474
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_029",
+          "pixel": [
+            676,
+            396
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_030",
+          "pixel": [
+            670,
+            361
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_031",
+          "pixel": [
+            623,
+            330
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_032",
+          "pixel": [
+            607,
+            352
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_033",
+          "pixel": [
+            628,
+            385
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_034",
+          "pixel": [
+            636,
+            463
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_035",
+          "pixel": [
+            654,
+            541
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_036",
+          "pixel": [
+            654,
+            641
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_037",
+          "pixel": [
+            652,
+            739
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_038",
+          "pixel": [
+            643,
+            824
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_039",
+          "pixel": [
+            643,
+            897
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_040",
+          "pixel": [
+            737,
+            861
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_041",
+          "pixel": [
+            797,
+            881
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_042",
+          "pixel": [
+            959,
+            892
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_043",
+          "pixel": [
+            1028,
+            897
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_044",
+          "pixel": [
+            1090,
+            893
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_045",
+          "pixel": [
+            1137,
+            870
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_046",
+          "pixel": [
+            1183,
+            830
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_047",
+          "pixel": [
+            1186,
+            790
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_048",
+          "pixel": [
+            1148,
+            695
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_049",
+          "pixel": [
+            1135,
+            586
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_050",
+          "pixel": [
+            1132,
+            521
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_051",
+          "pixel": [
+            1112,
+            483
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_052",
+          "pixel": [
+            1070,
+            477
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_053",
+          "pixel": [
+            934,
+            485
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_054",
+          "pixel": [
+            814,
+            454
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_055",
+          "pixel": [
+            734,
+            417
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_056",
+          "pixel": [
+            730,
+            363
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_057",
+          "pixel": [
+            743,
+            354
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_058",
+          "pixel": [
+            763,
+            356
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_059",
+          "pixel": [
+            776,
+            416
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_060",
+          "pixel": [
+            828,
+            416
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_061",
+          "pixel": [
+            926,
+            425
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_062",
+          "pixel": [
+            1003,
+            428
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_063",
+          "pixel": [
+            1077,
+            434
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_064",
+          "pixel": [
+            1128,
+            436
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_065",
+          "pixel": [
+            1152,
+            446
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_066",
+          "pixel": [
+            1188,
+            499
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_067",
+          "pixel": [
+            1190,
+            535
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_068",
+          "pixel": [
+            1123,
+            559
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_069",
+          "pixel": [
+            930,
+            526
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_070",
+          "pixel": [
+            806,
+            503
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_071",
+          "pixel": [
+            732,
+            492
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_072",
+          "pixel": [
+            717,
+            510
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_073",
+          "pixel": [
+            750,
+            552
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_074",
+          "pixel": [
+            915,
+            539
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_075",
+          "pixel": [
+            1088,
+            537
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_076",
+          "pixel": [
+            1094,
+            555
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_077",
+          "pixel": [
+            1034,
+            619
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_078",
+          "pixel": [
+            935,
+            630
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_079",
+          "pixel": [
+            816,
+            632
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_080",
+          "pixel": [
+            799,
+            668
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_081",
+          "pixel": [
+            812,
+            759
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_082",
+          "pixel": [
+            817,
+            804
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_083",
+          "pixel": [
+            895,
+            841
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_084",
+          "pixel": [
+            914,
+            877
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_085",
+          "pixel": [
+            1150,
+            808
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_086",
+          "pixel": [
+            1114,
+            844
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_087",
+          "pixel": [
+            1046,
+            850
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_088",
+          "pixel": [
+            941,
+            826
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_089",
+          "pixel": [
+            1006,
+            764
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_090",
+          "pixel": [
+            1077,
+            723
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_091",
+          "pixel": [
+            1063,
+            668
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_092",
+          "pixel": [
+            828,
+            703
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_093",
+          "pixel": [
+            905,
+            777
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_094",
+          "pixel": [
+            985,
+            754
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_095",
+          "pixel": [
+            948,
+            697
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_096",
+          "pixel": [
+            886,
+            697
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_097",
+          "pixel": [
+            732,
+            719
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_098",
+          "pixel": [
+            725,
+            790
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_099",
+          "pixel": [
+            743,
+            817
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_100",
+          "pixel": [
+            748,
+            648
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_101",
+          "pixel": [
+            747,
+            601
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_102",
+          "pixel": [
+            799,
+            563
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_103",
+          "pixel": [
+            854,
+            561
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_104",
+          "pixel": [
+            914,
+            583
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_105",
+          "pixel": [
+            981,
+            583
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_106",
+          "pixel": [
+            1017,
+            585
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_107",
+          "pixel": [
+            1046,
+            706
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_108",
+          "pixel": [
+            1077,
+            766
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_109",
+          "pixel": [
+            1086,
+            793
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_110",
+          "pixel": [
+            1184,
+            617
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_111",
+          "pixel": [
+            1115,
+            641
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_112",
+          "pixel": [
+            1021,
+            519
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_113",
+          "pixel": [
+            979,
+            481
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_114",
+          "pixel": [
+            890,
+            466
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_115",
+          "pixel": [
+            876,
+            488
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_116",
+          "pixel": [
+            977,
+            472
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_117",
+          "pixel": [
+            852,
+            734
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_118",
+          "pixel": [
+            865,
+            815
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_119",
+          "pixel": [
+            857,
+            872
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_120",
+          "pixel": [
+            796,
+            832
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_121",
+          "pixel": [
+            767,
+            766
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_122",
+          "pixel": [
+            747,
+            734
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_123",
+          "pixel": [
+            683,
+            752
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_124",
+          "pixel": [
+            641,
+            784
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_125",
+          "pixel": [
+            697,
+            883
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_126",
+          "pixel": [
+            999,
+            830
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_127",
+          "pixel": [
+            988,
+            799
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_128",
+          "pixel": [
+            1034,
+            775
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_129",
+          "pixel": [
+            992,
+            688
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_130",
+          "pixel": [
+            981,
+            648
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_131",
+          "pixel": [
+            872,
+            663
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_132",
+          "pixel": [
+            756,
+            892
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_133",
+          "pixel": [
+            618,
+            535
+          ]
+        },
+        {
+          "id": "wp_r03_corridor_134",
+          "pixel": [
+            667,
+            586
+          ]
+        }
+      ]
+    }
+  ]
+}

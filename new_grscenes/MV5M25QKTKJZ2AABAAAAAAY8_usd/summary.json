@@ -1,0 +1,31 @@
+{
+  "usd_path": "/home/pggg/InternUtopia/internutopia/assets/scenes/GRScenes-100/commercial_scenes/scenes/MV5M25QKTKJZ2AABAAAAAAY8_usd/start_result_navigation.usd",
+  "scene_prim_path": "/World/Scene",
+  "scene_translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scene_scale": 0.01,
+  "wall_bounds_min": [
+    -5.689692340420987,
+    -9.17344719727749,
+    0.0
+  ],
+  "wall_bounds_max": [
+    7.801376895000211,
+    1.0665532147098091,
+    2.799999979138374
+  ],
+  "wall_size_m": [
+    13.491069235421199,
+    10.2400004119873,
+    2.799999979138374
+  ],
+  "topdown_png": "topdown.png",
+  "topdown_mapping_json": "topdown_mapping.json",
+  "image_width": 1350,
+  "image_height": 1025,
+  "oblique_views": [],
+  "occupancy_map": null
+}

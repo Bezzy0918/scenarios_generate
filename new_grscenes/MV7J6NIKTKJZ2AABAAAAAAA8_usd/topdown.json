@@ -1,0 +1,98 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          353.51300000000003,
+          300.768
+        ],
+        [
+          931.5120000000001,
+          300.768
+        ],
+        [
+          931.5120000000001,
+          960.96
+        ],
+        [
+          353.51300000000003,
+          960.96
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          91.26299999999999,
+          660.192
+        ],
+        [
+          353.51300000000003,
+          660.192
+        ],
+        [
+          353.51300000000003,
+          960.96
+        ],
+        [
+          91.26299999999999,
+          960.96
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "kitchen",
+      "score": null,
+      "points": [
+        [
+          91.26299999999999,
+          300.768
+        ],
+        [
+          353.51300000000003,
+          300.768
+        ],
+        [
+          353.51300000000003,
+          660.192
+        ],
+        [
+          91.26299999999999,
+          660.192
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1248,
+  "imageWidth": 1049,
+  "description": "An open-plan office space featuring a primary workspace with rows of desks, a lounge area for relaxation, a small kitchenette or storage area along the wall, and several plants adding a touch of greenery."
+}

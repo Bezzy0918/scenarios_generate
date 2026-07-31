@@ -1,0 +1,84 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          473.98400000000004,
+          589.852
+        ],
+        [
+          478.40000000000003,
+          74.568
+        ],
+        [
+          900.864,
+          74.568
+        ],
+        [
+          911.168,
+          209.364
+        ],
+        [
+          981.8240000000001,
+          378.576
+        ],
+        [
+          1024.512,
+          497.12
+        ],
+        [
+          995.0720000000001,
+          508.59200000000004
+        ],
+        [
+          992.128,
+          568.8199999999999
+        ],
+        [
+          990.6560000000001,
+          585.072
+        ],
+        [
+          992.128,
+          878.5640000000001
+        ],
+        [
+          921.472,
+          878.5640000000001
+        ],
+        [
+          917.056,
+          752.3720000000001
+        ],
+        [
+          902.336,
+          751.416
+        ],
+        [
+          900.864,
+          878.5640000000001
+        ],
+        [
+          475.456,
+          878.5640000000001
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 956,
+  "imageWidth": 1472,
+  "description": "An open-plan office layout with multiple desk clusters, a conference area, and a casual seating or waiting area."
+}

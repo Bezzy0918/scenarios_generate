@@ -1,0 +1,1091 @@
+{
+  "region_areas": [
+    {
+      "region_id": 0,
+      "label": "office",
+      "polygon": [
+        [
+          75.55499999999999,
+          780.288
+        ],
+        [
+          938.745,
+          780.288
+        ],
+        [
+          938.745,
+          1263.616
+        ],
+        [
+          75.55499999999999,
+          1263.616
+        ]
+      ]
+    }
+  ],
+  "waypoints_by_region": [
+    {
+      "region_id": 0,
+      "label": "office",
+      "waypoints": [
+        {
+          "id": "wp_r00_office_001",
+          "pixel": [
+            257,
+            858
+          ]
+        },
+        {
+          "id": "wp_r00_office_002",
+          "pixel": [
+            292,
+            856
+          ]
+        },
+        {
+          "id": "wp_r00_office_003",
+          "pixel": [
+            264,
+            881
+          ]
+        },
+        {
+          "id": "wp_r00_office_004",
+          "pixel": [
+            301,
+            883
+          ]
+        },
+        {
+          "id": "wp_r00_office_005",
+          "pixel": [
+            262,
+            914
+          ]
+        },
+        {
+          "id": "wp_r00_office_006",
+          "pixel": [
+            286,
+            920
+          ]
+        },
+        {
+          "id": "wp_r00_office_007",
+          "pixel": [
+            243,
+            966
+          ]
+        },
+        {
+          "id": "wp_r00_office_008",
+          "pixel": [
+            296,
+            953
+          ]
+        },
+        {
+          "id": "wp_r00_office_009",
+          "pixel": [
+            255,
+            996
+          ]
+        },
+        {
+          "id": "wp_r00_office_010",
+          "pixel": [
+            255,
+            1001
+          ]
+        },
+        {
+          "id": "wp_r00_office_011",
+          "pixel": [
+            261,
+            1046
+          ]
+        },
+        {
+          "id": "wp_r00_office_012",
+          "pixel": [
+            264,
+            1077
+          ]
+        },
+        {
+          "id": "wp_r00_office_013",
+          "pixel": [
+            262,
+            1126
+          ]
+        },
+        {
+          "id": "wp_r00_office_014",
+          "pixel": [
+            259,
+            1155
+          ]
+        },
+        {
+          "id": "wp_r00_office_015",
+          "pixel": [
+            284,
+            976
+          ]
+        },
+        {
+          "id": "wp_r00_office_016",
+          "pixel": [
+            288,
+            1031
+          ]
+        },
+        {
+          "id": "wp_r00_office_017",
+          "pixel": [
+            292,
+            1073
+          ]
+        },
+        {
+          "id": "wp_r00_office_018",
+          "pixel": [
+            297,
+            1122
+          ]
+        },
+        {
+          "id": "wp_r00_office_019",
+          "pixel": [
+            307,
+            1167
+          ]
+        },
+        {
+          "id": "wp_r00_office_020",
+          "pixel": [
+            340,
+            1151
+          ]
+        },
+        {
+          "id": "wp_r00_office_021",
+          "pixel": [
+            377,
+            1151
+          ]
+        },
+        {
+          "id": "wp_r00_office_022",
+          "pixel": [
+            400,
+            1157
+          ]
+        },
+        {
+          "id": "wp_r00_office_023",
+          "pixel": [
+            428,
+            1161
+          ]
+        },
+        {
+          "id": "wp_r00_office_024",
+          "pixel": [
+            488,
+            1167
+          ]
+        },
+        {
+          "id": "wp_r00_office_025",
+          "pixel": [
+            542,
+            1169
+          ]
+        },
+        {
+          "id": "wp_r00_office_026",
+          "pixel": [
+            593,
+            1169
+          ]
+        },
+        {
+          "id": "wp_r00_office_027",
+          "pixel": [
+            636,
+            1165
+          ]
+        },
+        {
+          "id": "wp_r00_office_028",
+          "pixel": [
+            725,
+            1161
+          ]
+        },
+        {
+          "id": "wp_r00_office_029",
+          "pixel": [
+            785,
+            1161
+          ]
+        },
+        {
+          "id": "wp_r00_office_030",
+          "pixel": [
+            840,
+            1159
+          ]
+        },
+        {
+          "id": "wp_r00_office_031",
+          "pixel": [
+            873,
+            1155
+          ]
+        },
+        {
+          "id": "wp_r00_office_032",
+          "pixel": [
+            923,
+            1159
+          ]
+        },
+        {
+          "id": "wp_r00_office_033",
+          "pixel": [
+            919,
+            1190
+          ]
+        },
+        {
+          "id": "wp_r00_office_034",
+          "pixel": [
+            882,
+            1194
+          ]
+        },
+        {
+          "id": "wp_r00_office_035",
+          "pixel": [
+            849,
+            1174
+          ]
+        },
+        {
+          "id": "wp_r00_office_036",
+          "pixel": [
+            836,
+            1172
+          ]
+        },
+        {
+          "id": "wp_r00_office_037",
+          "pixel": [
+            810,
+            1180
+          ]
+        },
+        {
+          "id": "wp_r00_office_038",
+          "pixel": [
+            799,
+            1190
+          ]
+        },
+        {
+          "id": "wp_r00_office_039",
+          "pixel": [
+            777,
+            1188
+          ]
+        },
+        {
+          "id": "wp_r00_office_040",
+          "pixel": [
+            698,
+            1165
+          ]
+        },
+        {
+          "id": "wp_r00_office_041",
+          "pixel": [
+            663,
+            1167
+          ]
+        },
+        {
+          "id": "wp_r00_office_042",
+          "pixel": [
+            661,
+            1194
+          ]
+        },
+        {
+          "id": "wp_r00_office_043",
+          "pixel": [
+            634,
+            1192
+          ]
+        },
+        {
+          "id": "wp_r00_office_044",
+          "pixel": [
+            579,
+            1186
+          ]
+        },
+        {
+          "id": "wp_r00_office_045",
+          "pixel": [
+            540,
+            1188
+          ]
+        },
+        {
+          "id": "wp_r00_office_046",
+          "pixel": [
+            521,
+            1190
+          ]
+        },
+        {
+          "id": "wp_r00_office_047",
+          "pixel": [
+            484,
+            1190
+          ]
+        },
+        {
+          "id": "wp_r00_office_048",
+          "pixel": [
+            451,
+            1190
+          ]
+        },
+        {
+          "id": "wp_r00_office_049",
+          "pixel": [
+            420,
+            1184
+          ]
+        },
+        {
+          "id": "wp_r00_office_050",
+          "pixel": [
+            395,
+            1184
+          ]
+        },
+        {
+          "id": "wp_r00_office_051",
+          "pixel": [
+            373,
+            1184
+          ]
+        },
+        {
+          "id": "wp_r00_office_052",
+          "pixel": [
+            325,
+            1192
+          ]
+        },
+        {
+          "id": "wp_r00_office_053",
+          "pixel": [
+            307,
+            1200
+          ]
+        },
+        {
+          "id": "wp_r00_office_054",
+          "pixel": [
+            342,
+            1174
+          ]
+        },
+        {
+          "id": "wp_r00_office_055",
+          "pixel": [
+            266,
+            1176
+          ]
+        },
+        {
+          "id": "wp_r00_office_056",
+          "pixel": [
+            224,
+            1182
+          ]
+        },
+        {
+          "id": "wp_r00_office_057",
+          "pixel": [
+            187,
+            1182
+          ]
+        },
+        {
+          "id": "wp_r00_office_058",
+          "pixel": [
+            146,
+            1182
+          ]
+        },
+        {
+          "id": "wp_r00_office_059",
+          "pixel": [
+            134,
+            1165
+          ]
+        },
+        {
+          "id": "wp_r00_office_060",
+          "pixel": [
+            210,
+            1157
+          ]
+        },
+        {
+          "id": "wp_r00_office_061",
+          "pixel": [
+            177,
+            1157
+          ]
+        },
+        {
+          "id": "wp_r00_office_062",
+          "pixel": [
+            105,
+            1157
+          ]
+        },
+        {
+          "id": "wp_r00_office_063",
+          "pixel": [
+            101,
+            1136
+          ]
+        },
+        {
+          "id": "wp_r00_office_064",
+          "pixel": [
+            109,
+            1126
+          ]
+        },
+        {
+          "id": "wp_r00_office_065",
+          "pixel": [
+            111,
+            1079
+          ]
+        },
+        {
+          "id": "wp_r00_office_066",
+          "pixel": [
+            111,
+            1046
+          ]
+        },
+        {
+          "id": "wp_r00_office_067",
+          "pixel": [
+            107,
+            1013
+          ]
+        },
+        {
+          "id": "wp_r00_office_068",
+          "pixel": [
+            103,
+            986
+          ]
+        },
+        {
+          "id": "wp_r00_office_069",
+          "pixel": [
+            105,
+            957
+          ]
+        },
+        {
+          "id": "wp_r00_office_070",
+          "pixel": [
+            105,
+            930
+          ]
+        },
+        {
+          "id": "wp_r00_office_071",
+          "pixel": [
+            103,
+            898
+          ]
+        },
+        {
+          "id": "wp_r00_office_072",
+          "pixel": [
+            103,
+            873
+          ]
+        },
+        {
+          "id": "wp_r00_office_073",
+          "pixel": [
+            121,
+            832
+          ]
+        },
+        {
+          "id": "wp_r00_office_074",
+          "pixel": [
+            406,
+            850
+          ]
+        },
+        {
+          "id": "wp_r00_office_075",
+          "pixel": [
+            443,
+            850
+          ]
+        },
+        {
+          "id": "wp_r00_office_076",
+          "pixel": [
+            447,
+            875
+          ]
+        },
+        {
+          "id": "wp_r00_office_077",
+          "pixel": [
+            428,
+            883
+          ]
+        },
+        {
+          "id": "wp_r00_office_078",
+          "pixel": [
+            428,
+            916
+          ]
+        },
+        {
+          "id": "wp_r00_office_079",
+          "pixel": [
+            453,
+            912
+          ]
+        },
+        {
+          "id": "wp_r00_office_080",
+          "pixel": [
+            435,
+            953
+          ]
+        },
+        {
+          "id": "wp_r00_office_081",
+          "pixel": [
+            433,
+            1009
+          ]
+        },
+        {
+          "id": "wp_r00_office_082",
+          "pixel": [
+            418,
+            1058
+          ]
+        },
+        {
+          "id": "wp_r00_office_083",
+          "pixel": [
+            418,
+            982
+          ]
+        },
+        {
+          "id": "wp_r00_office_084",
+          "pixel": [
+            435,
+            978
+          ]
+        },
+        {
+          "id": "wp_r00_office_085",
+          "pixel": [
+            432,
+            1023
+          ]
+        },
+        {
+          "id": "wp_r00_office_086",
+          "pixel": [
+            437,
+            1052
+          ]
+        },
+        {
+          "id": "wp_r00_office_087",
+          "pixel": [
+            416,
+            1027
+          ]
+        },
+        {
+          "id": "wp_r00_office_088",
+          "pixel": [
+            418,
+            1087
+          ]
+        },
+        {
+          "id": "wp_r00_office_089",
+          "pixel": [
+            451,
+            1081
+          ]
+        },
+        {
+          "id": "wp_r00_office_090",
+          "pixel": [
+            445,
+            1112
+          ]
+        },
+        {
+          "id": "wp_r00_office_091",
+          "pixel": [
+            420,
+            1114
+          ]
+        },
+        {
+          "id": "wp_r00_office_092",
+          "pixel": [
+            569,
+            1120
+          ]
+        },
+        {
+          "id": "wp_r00_office_093",
+          "pixel": [
+            599,
+            1118
+          ]
+        },
+        {
+          "id": "wp_r00_office_094",
+          "pixel": [
+            583,
+            1081
+          ]
+        },
+        {
+          "id": "wp_r00_office_095",
+          "pixel": [
+            577,
+            1031
+          ]
+        },
+        {
+          "id": "wp_r00_office_096",
+          "pixel": [
+            577,
+            986
+          ]
+        },
+        {
+          "id": "wp_r00_office_097",
+          "pixel": [
+            575,
+            955
+          ]
+        },
+        {
+          "id": "wp_r00_office_098",
+          "pixel": [
+            573,
+            897
+          ]
+        },
+        {
+          "id": "wp_r00_office_099",
+          "pixel": [
+            575,
+            1161
+          ]
+        },
+        {
+          "id": "wp_r00_office_100",
+          "pixel": [
+            571,
+            1062
+          ]
+        },
+        {
+          "id": "wp_r00_office_101",
+          "pixel": [
+            587,
+            1052
+          ]
+        },
+        {
+          "id": "wp_r00_office_102",
+          "pixel": [
+            601,
+            1044
+          ]
+        },
+        {
+          "id": "wp_r00_office_103",
+          "pixel": [
+            595,
+            992
+          ]
+        },
+        {
+          "id": "wp_r00_office_104",
+          "pixel": [
+            601,
+            955
+          ]
+        },
+        {
+          "id": "wp_r00_office_105",
+          "pixel": [
+            601,
+            930
+          ]
+        },
+        {
+          "id": "wp_r00_office_106",
+          "pixel": [
+            599,
+            867
+          ]
+        },
+        {
+          "id": "wp_r00_office_107",
+          "pixel": [
+            602,
+            904
+          ]
+        },
+        {
+          "id": "wp_r00_office_108",
+          "pixel": [
+            585,
+            922
+          ]
+        },
+        {
+          "id": "wp_r00_office_109",
+          "pixel": [
+            573,
+            865
+          ]
+        },
+        {
+          "id": "wp_r00_office_110",
+          "pixel": [
+            717,
+            858
+          ]
+        },
+        {
+          "id": "wp_r00_office_111",
+          "pixel": [
+            744,
+            854
+          ]
+        },
+        {
+          "id": "wp_r00_office_112",
+          "pixel": [
+            723,
+            887
+          ]
+        },
+        {
+          "id": "wp_r00_office_113",
+          "pixel": [
+            758,
+            887
+          ]
+        },
+        {
+          "id": "wp_r00_office_114",
+          "pixel": [
+            733,
+            924
+          ]
+        },
+        {
+          "id": "wp_r00_office_115",
+          "pixel": [
+            756,
+            914
+          ]
+        },
+        {
+          "id": "wp_r00_office_116",
+          "pixel": [
+            740,
+            982
+          ]
+        },
+        {
+          "id": "wp_r00_office_117",
+          "pixel": [
+            773,
+            943
+          ]
+        },
+        {
+          "id": "wp_r00_office_118",
+          "pixel": [
+            740,
+            953
+          ]
+        },
+        {
+          "id": "wp_r00_office_119",
+          "pixel": [
+            729,
+            1017
+          ]
+        },
+        {
+          "id": "wp_r00_office_120",
+          "pixel": [
+            729,
+            1048
+          ]
+        },
+        {
+          "id": "wp_r00_office_121",
+          "pixel": [
+            729,
+            1085
+          ]
+        },
+        {
+          "id": "wp_r00_office_122",
+          "pixel": [
+            725,
+            1106
+          ]
+        },
+        {
+          "id": "wp_r00_office_123",
+          "pixel": [
+            758,
+            996
+          ]
+        },
+        {
+          "id": "wp_r00_office_124",
+          "pixel": [
+            752,
+            1050
+          ]
+        },
+        {
+          "id": "wp_r00_office_125",
+          "pixel": [
+            750,
+            1058
+          ]
+        },
+        {
+          "id": "wp_r00_office_126",
+          "pixel": [
+            750,
+            1110
+          ]
+        },
+        {
+          "id": "wp_r00_office_127",
+          "pixel": [
+            717,
+            978
+          ]
+        },
+        {
+          "id": "wp_r00_office_128",
+          "pixel": [
+            762,
+            1017
+          ]
+        },
+        {
+          "id": "wp_r00_office_129",
+          "pixel": [
+            760,
+            1134
+          ]
+        },
+        {
+          "id": "wp_r00_office_130",
+          "pixel": [
+            754,
+            1169
+          ]
+        },
+        {
+          "id": "wp_r00_office_131",
+          "pixel": [
+            880,
+            1128
+          ]
+        },
+        {
+          "id": "wp_r00_office_132",
+          "pixel": [
+            904,
+            1128
+          ]
+        },
+        {
+          "id": "wp_r00_office_133",
+          "pixel": [
+            909,
+            1097
+          ]
+        },
+        {
+          "id": "wp_r00_office_134",
+          "pixel": [
+            908,
+            1077
+          ]
+        },
+        {
+          "id": "wp_r00_office_135",
+          "pixel": [
+            900,
+            1040
+          ]
+        },
+        {
+          "id": "wp_r00_office_136",
+          "pixel": [
+            898,
+            988
+          ]
+        },
+        {
+          "id": "wp_r00_office_137",
+          "pixel": [
+            898,
+            959
+          ]
+        },
+        {
+          "id": "wp_r00_office_138",
+          "pixel": [
+            894,
+            945
+          ]
+        },
+        {
+          "id": "wp_r00_office_139",
+          "pixel": [
+            894,
+            910
+          ]
+        },
+        {
+          "id": "wp_r00_office_140",
+          "pixel": [
+            898,
+            885
+          ]
+        },
+        {
+          "id": "wp_r00_office_141",
+          "pixel": [
+            878,
+            1099
+          ]
+        },
+        {
+          "id": "wp_r00_office_142",
+          "pixel": [
+            892,
+            1060
+          ]
+        },
+        {
+          "id": "wp_r00_office_143",
+          "pixel": [
+            915,
+            1027
+          ]
+        },
+        {
+          "id": "wp_r00_office_144",
+          "pixel": [
+            890,
+            1011
+          ]
+        },
+        {
+          "id": "wp_r00_office_145",
+          "pixel": [
+            917,
+            966
+          ]
+        },
+        {
+          "id": "wp_r00_office_146",
+          "pixel": [
+            904,
+            928
+          ]
+        },
+        {
+          "id": "wp_r00_office_147",
+          "pixel": [
+            913,
+            904
+          ]
+        },
+        {
+          "id": "wp_r00_office_148",
+          "pixel": [
+            888,
+            856
+          ]
+        },
+        {
+          "id": "wp_r00_office_149",
+          "pixel": [
+            890,
+            827
+          ]
+        },
+        {
+          "id": "wp_r00_office_150",
+          "pixel": [
+            908,
+            834
+          ]
+        },
+        {
+          "id": "wp_r00_office_151",
+          "pixel": [
+            908,
+            854
+          ]
+        }
+      ]
+    }
+  ]
+}

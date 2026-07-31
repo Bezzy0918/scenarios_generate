@@ -1,0 +1,81 @@
+{
+  "version": "4.0.0-beta.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "office",
+      "score": null,
+      "points": [
+        [
+          263.84000000000003,
+          450.684
+        ],
+        [
+          939.93,
+          450.684
+        ],
+        [
+          943.81,
+          968.7599999999999
+        ],
+        [
+          280.33,
+          968.7599999999999
+        ],
+        [
+          280.33,
+          669.708
+        ],
+        [
+          139.67999999999998,
+          669.708
+        ],
+        [
+          138.70999999999998,
+          447.87600000000003
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "waiting_area",
+      "score": null,
+      "points": [
+        [
+          274.51,
+          671.112
+        ],
+        [
+          274.51,
+          1017.9
+        ],
+        [
+          18.43,
+          1017.9
+        ],
+        [
+          18.43,
+          671.112
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "topdown.png",
+  "imageData": null,
+  "imageHeight": 1404,
+  "imageWidth": 970,
+  "description": "The scene is a top-down view of an office space with a separate waiting area."
+}
