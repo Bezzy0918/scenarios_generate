@@ -1,0 +1,31 @@
+# Edit this file, then run:
+# python3 scripts/generate_scenario_variants.py --config configs/scenario_generation.yaml
+
+scene_dir: new_grscenes/MV5M25QKTKJZ2AABAAAAAAA8_usd
+output_root: new_outputs
+llm_config: configs/llm_config.local.yaml
+
+# Following human
+# prompt: >-
+#   生成1个行人和1条机器人同向运动的直线路线,行人人起点必须位于机器人起点正前方（以路线运动方向为准）,行人人终点位于机器人终点前方并保持一定距离,
+#   两者路线都必须是没有大角度弯角(如90度弯角)的较长直线，且各自起点和终点位置接近，尽量选择长的走廊过道或宽阔区域规划路线
+
+# Blind Corner
+# prompt: >-
+#   生成1个行人和1条机器人垂直交叉运动的路线,机器人和行人起点各自位于同一障碍物/建筑性形成的转角两边，
+#   路线在转角处垂直交叉,且交叉点在路径起始阶段(前三个waypoints之内),形成blind corner交互场景,两者路线长度偏短或中等.
+
+# Robot Overtaking
+prompt: >-
+  生成1个行人和1条机器人同向运动的直线路线,机器人起点必须位于行人起点正后方（以路线运动方向为准）,机器人终点位于行人终点前方,
+  两者路线都必须是没有大角度弯角(如90度弯角)的较长直线，且各自起点和终点位置接近，尽量选择长的走廊过道或宽阔区域规划路线
+
+count: 6
+pedestrians: 1
+max_attempts: 3
+
+# true 会重新生成已有的 scenario_001、scenario_002 等结果。
+overwrite: true
+
+# true 只检查配置和输出路径，不调用 LLM。
+dry_run: false

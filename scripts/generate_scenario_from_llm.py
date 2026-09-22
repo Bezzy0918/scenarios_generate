@@ -514,6 +514,56 @@ def extract_json_from_text(text: str) -> Any:
         return json.loads(match.group(1))
 
 
+def response_summary(response: requests.Response, api_key: str, limit: int = 500) -> str:
+    content_type = response.headers.get("Content-Type", "<missing>")
+    body = response.text
+    if api_key:
+        body = body.replace(api_key, "<redacted-api-key>")
+        content_type = content_type.replace(api_key, "<redacted-api-key>")
+    body = body.strip()
+    if not body:
+        body = "<empty>"
+    else:
+        body = re.sub(r"\s+", " ", body)
+        if len(body) > limit:
+            body = f"{body[:limit]}..."
+    return f"status={response.status_code}, content-type={content_type}, body={body!r}"
+
+
+def response_json(
+    response: requests.Response,
+    *,
+    provider: str,
+    endpoint: str,
+    api_key: str,
+) -> dict[str, Any]:
+    if api_key:
+        endpoint = endpoint.replace(api_key, "<redacted-api-key>")
+    try:
+        data = response.json()
+    except requests.exceptions.JSONDecodeError as exc:
+        summary = response_summary(response, api_key)
+        raise RuntimeError(
+            f"{provider} returned a non-JSON response from {endpoint}: {summary}. "
+            "Check api_base_url, API protocol compatibility, and upstream gateway status."
+        ) from None
+    if not isinstance(data, dict):
+        raise RuntimeError(
+            f"{provider} returned JSON with type {type(data).__name__} from {endpoint}; "
+            "expected an object"
+        )
+    return data
+
+
+def request_timeout(config: dict[str, Any]) -> tuple[float, float]:
+    fallback = float(config.get("timeout", 180))
+    connect_timeout = float(config.get("connect_timeout", min(fallback, 30)))
+    read_timeout = float(config.get("read_timeout", fallback))
+    if connect_timeout <= 0 or read_timeout <= 0:
+        raise ValueError("LLM connect_timeout and read_timeout must be positive")
+    return connect_timeout, read_timeout
+
+
 def parse_gemini_response(response_json: dict[str, Any]) -> Any:
     candidates = response_json.get("candidates")
     if not isinstance(candidates, list) or not candidates:
@@ -554,7 +604,7 @@ def call_gemini_llm(
             "responseMimeType": "application/json",
         },
     }
-    timeout = float(config.get("timeout", 180))
+    timeout = request_timeout(config)
 
     try:
         response = requests.post(
@@ -566,8 +616,17 @@ def call_gemini_llm(
         response.raise_for_status()
     except requests.RequestException as exc:
         message = str(exc).replace(api_key, "<redacted-api-key>")
+        if exc.response is not None:
+            message = f"{message}; {response_summary(exc.response, api_key)}"
         raise RuntimeError(f"LLM request failed: {message}") from exc
-    return parse_gemini_response(response.json())
+    return parse_gemini_response(
+        response_json(
+            response,
+            provider="Gemini-compatible API",
+            endpoint=endpoint,
+            api_key=api_key,
+        )
+    )
 
 
 def parse_openai_responses_response(response_json: dict[str, Any]) -> Any:
@@ -582,6 +641,93 @@ def parse_openai_responses_response(response_json: dict[str, Any]) -> Any:
     if not text_chunks:
         raise ValueError(f"OpenAI response does not contain output text: {response_json}")
     return extract_json_from_text("\n".join(text_chunks))
+
+
+def parse_openai_chat_response(response_json: dict[str, Any]) -> Any:
+    choices = response_json.get("choices")
+    if not isinstance(choices, list) or not choices:
+        raise ValueError(f"OpenAI Chat response does not contain choices: {response_json}")
+
+    message = choices[0].get("message", {})
+    content = message.get("content") if isinstance(message, dict) else None
+    if isinstance(content, str):
+        return extract_json_from_text(content)
+    if isinstance(content, list):
+        text_chunks = [
+            item["text"]
+            for item in content
+            if isinstance(item, dict) and isinstance(item.get("text"), str)
+        ]
+        if text_chunks:
+            return extract_json_from_text("\n".join(text_chunks))
+    raise ValueError(f"OpenAI Chat response does not contain message text: {response_json}")
+
+
+def call_openai_chat_llm(
+    config: dict[str, Any],
+    prompt: str,
+    image_paths: list[Path],
+) -> Any:
+    api_base_url = config_value(config, "api_base_url").rstrip("/")
+    api_key = config_value(config, "api_key")
+    model_id = config_value(config, "model_id")
+    endpoint = f"{api_base_url}/chat/completions"
+    image_detail = str(config.get("image_detail", "high"))
+
+    content: list[dict[str, Any]] = [{"type": "text", "text": prompt}]
+    content.extend(
+        {
+            "type": "image_url",
+            "image_url": {
+                "url": encode_image_data_url(path),
+                "detail": image_detail,
+            },
+        }
+        for path in image_paths
+    )
+    payload: dict[str, Any] = {
+        "model": model_id,
+        "messages": [{"role": "user", "content": content}],
+    }
+    if config.get("temperature") is not None:
+        payload["temperature"] = float(config["temperature"])
+    if config.get("max_tokens"):
+        payload["max_tokens"] = int(config["max_tokens"])
+    if bool(config.get("json_mode", False)):
+        payload["response_format"] = {"type": "json_object"}
+
+    timeout = request_timeout(config)
+    try:
+        response = requests.post(
+            endpoint,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
+            json=payload,
+            timeout=timeout,
+        )
+        response.raise_for_status()
+    except requests.Timeout as exc:
+        raise RuntimeError(
+            f"OpenAI Chat LLM request timed out for model {model_id} at {endpoint} "
+            f"(connect timeout={timeout[0]}s, read timeout={timeout[1]}s, "
+            f"images={len(image_paths)}). Increase read_timeout or confirm that the model "
+            "supports image input."
+        ) from exc
+    except requests.RequestException as exc:
+        message = str(exc).replace(api_key, "<redacted-api-key>")
+        if exc.response is not None:
+            message = f"{message}; {response_summary(exc.response, api_key)}"
+        raise RuntimeError(f"OpenAI Chat LLM request failed: {message}") from exc
+    return parse_openai_chat_response(
+        response_json(
+            response,
+            provider="OpenAI Chat-compatible API",
+            endpoint=endpoint,
+            api_key=api_key,
+        )
+    )
 
 
 def call_openai_responses_llm(
@@ -614,7 +760,7 @@ def call_openai_responses_llm(
     if config.get("reasoning_effort"):
         payload["reasoning"] = {"effort": str(config["reasoning_effort"])}
 
-    timeout = float(config.get("timeout", 180))
+    timeout = request_timeout(config)
     try:
         response = requests.post(
             endpoint,
@@ -628,14 +774,25 @@ def call_openai_responses_llm(
         response.raise_for_status()
     except requests.RequestException as exc:
         message = str(exc).replace(api_key, "<redacted-api-key>")
+        if exc.response is not None:
+            message = f"{message}; {response_summary(exc.response, api_key)}"
         raise RuntimeError(f"OpenAI LLM request failed: {message}") from exc
-    return parse_openai_responses_response(response.json())
+    return parse_openai_responses_response(
+        response_json(
+            response,
+            provider="OpenAI-compatible API",
+            endpoint=endpoint,
+            api_key=api_key,
+        )
+    )
 
 
 def call_llm(config: dict[str, Any], prompt: str, image_paths: list[Path]) -> Any:
     llm_type = str(config.get("type", "gemini")).lower()
     if llm_type in {"gemini", "google"}:
         return call_gemini_llm(config, prompt, image_paths)
+    if llm_type in {"openai_chat", "chat", "chat_completions"}:
+        return call_openai_chat_llm(config, prompt, image_paths)
     if llm_type in {"openai", "openai_responses", "responses"}:
         return call_openai_responses_llm(config, prompt, image_paths)
     raise ValueError(f"Unsupported LLM config type: {llm_type}")

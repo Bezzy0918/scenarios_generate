@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 from PIL import Image, ImageDraw
+import yaml
 
 
 REQUIRED_SCENE_FILES = (
@@ -20,40 +21,97 @@ REQUIRED_SCENE_FILES = (
     "waypoints_by_region.json",
     "scene_prompt.txt",
 )
+RUN_CONFIG_KEYS = {
+    "scene_dir",
+    "output_root",
+    "llm_config",
+    "prompt",
+    "count",
+    "max_attempts",
+    "pedestrians",
+    "overwrite",
+    "dry_run",
+}
+RUN_DEFAULTS = {
+    "count": 5,
+    "max_attempts": 3,
+    "pedestrians": 2,
+    "overwrite": False,
+    "dry_run": False,
+}
+REQUIRED_RUN_VALUES = ("scene_dir", "output_root", "llm_config", "prompt")
 
 
-def parse_args() -> argparse.Namespace:
+def load_run_config(path: Path) -> dict[str, Any]:
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} must contain a YAML object")
+    unknown = sorted(set(data) - RUN_CONFIG_KEYS)
+    if unknown:
+        raise ValueError(f"Unknown run config keys in {path}: {', '.join(unknown)}")
+    return data
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Generate multiple distinct trajectory scenarios for one prepared scene."
     )
-    parser.add_argument("--scene-dir", required=True, help="Prepared scene directory.")
-    parser.add_argument("--output-root", required=True, help="Root directory for all generated outputs.")
-    parser.add_argument("--llm-config", required=True, help="LLM YAML configuration path.")
-    parser.add_argument("--prompt", required=True, help="Common scenario request for every variant.")
-    parser.add_argument("--count", type=int, default=5, help="Number of distinct variants. Default: 5.")
+    parser.add_argument(
+        "--config",
+        help="YAML run configuration. Explicit command-line options override its values.",
+    )
+    parser.add_argument("--scene-dir", help="Prepared scene directory.")
+    parser.add_argument("--output-root", help="Root directory for all generated outputs.")
+    parser.add_argument("--llm-config", help="LLM YAML configuration path.")
+    parser.add_argument("--prompt", help="Common scenario request for every variant.")
+    parser.add_argument("--count", type=int, help="Number of distinct variants. Default: 5.")
     parser.add_argument(
         "--max-attempts",
         type=int,
-        default=3,
         help="Maximum generation attempts per variant. Default: 3.",
     )
     parser.add_argument(
         "--pedestrians",
         type=int,
-        default=2,
         help="Required number of pedestrian agents. Default: 2.",
     )
     parser.add_argument(
         "--overwrite",
-        action="store_true",
+        action=argparse.BooleanOptionalAction,
+        default=None,
         help="Regenerate variants whose output files already exist.",
     )
     parser.add_argument(
         "--dry-run",
-        action="store_true",
+        action=argparse.BooleanOptionalAction,
+        default=None,
         help="Print planned variant output paths without calling the LLM.",
     )
-    return parser.parse_args()
+    cli_args = parser.parse_args(argv)
+
+    values = dict(RUN_DEFAULTS)
+    if cli_args.config:
+        config_path = Path(cli_args.config).expanduser().resolve()
+        if not config_path.is_file():
+            parser.error(f"run config not found: {config_path}")
+        try:
+            values.update(load_run_config(config_path))
+        except (OSError, ValueError, yaml.YAMLError) as exc:
+            parser.error(str(exc))
+
+    for key in RUN_CONFIG_KEYS:
+        cli_value = getattr(cli_args, key)
+        if cli_value is not None:
+            values[key] = cli_value
+
+    missing = [key for key in REQUIRED_RUN_VALUES if not values.get(key)]
+    if missing:
+        parser.error(
+            f"missing required settings: {', '.join(missing)}; "
+            "provide them in --config or as command-line options"
+        )
+    values["config"] = cli_args.config
+    return argparse.Namespace(**values)
 
 
 def waypoint_id(value: Any) -> str:

@@ -104,23 +104,51 @@ new_outputs/<scene_id>/manual_scenario_preview.png
 cp configs/llm_config.example.yaml configs/llm_config.local.yaml
 ```
 
-设置环境变量，例如：
+当前示例配置使用 DMXAPI 的 OpenAI Chat Completions 兼容接口和
+`gpt-6-astra`。设置 API Key：
 
 ```bash
-export DMX_BASE_URL="https://your-api-base.example/v1beta"
 export DMX_API_KEY="your_api_key"
 ```
 
+接口地址和模型在 `configs/llm_config.local.yaml` 中配置：
+
+```yaml
+type: openai_chat
+api_base_url: https://jkwl.dmxapi.cn/v1
+api_key_env: DMX_API_KEY
+model_id: gpt-6-astra
+connect_timeout: 30
+read_timeout: 600
+```
+
+该生成流程需要模型支持图片输入，因为每次请求会同时发送场景 overlay 和
+navmesh mask。若供应商仅为该模型开通文本调用，接口会返回不支持图片的错误。
+`read_timeout` 是等待模型完整响应的秒数；多模态请求较慢时可以继续增大。
+
 然后运行：
+
+推荐把每次运行的参数写在 `configs/scenario_generation.yaml` 中。修改该文件后只需执行：
 
 ```bash
 python3 scripts/generate_scenario_variants.py \
-  --scene-dir new_grscenes/<scene_id> \
-  --output-root new_outputs \
-  --llm-config configs/llm_config.local.yaml \
-  --prompt "生成 2 个行人和 1 条机器人路线，路线要合理避开家具并尽量产生交互" \
-  --count 5 \
-  --pedestrians 2
+  --config configs/scenario_generation.yaml
+```
+
+配置文件包含 `scene_dir`、`output_root`、`llm_config`、`prompt`、`count`、
+`pedestrians`、`max_attempts`、`overwrite` 和 `dry_run`。命令行参数仍然可用，且会覆盖配置文件中的值；例如只生成一个候选并且不调用 LLM：
+
+```bash
+python3 scripts/generate_scenario_variants.py \
+  --config configs/scenario_generation.yaml \
+  --count 1 \
+  --dry-run
+```
+
+也可以继续完全使用命令行参数：
+
+```bash
+python3 scripts/generate_scenario_variants.py --config configs/scenario_generation.yaml
 ```
 
 输出结构：
@@ -208,4 +236,3 @@ python3 scripts/topdown_click_to_world.py \
   --save-overlay new_outputs/<scene_id>/manual_scenario_check.png \
   --no-show
 ```
-
